@@ -17,8 +17,8 @@
         <item name="android:textColorPrimary">@color/sh_text</item>
         <item name="android:textColorSecondary">@color/sh_muted</item>
         <!-- App-wide font: TextViews (android:fontFamily) and Material components (fontFamily). -->
-        <item name="android:fontFamily">@font/sora</item>
-        <item name="fontFamily">@font/sora</item>
+        <item name="android:fontFamily">@font/brand</item>
+        <item name="fontFamily">@font/brand</item>
     </style>
 
     <style name="Theme.SkinHubSkinsBundles" parent="Base.Theme.SkinHubSkinsBundles" />
@@ -37,9 +37,9 @@
     <style name="SH" />
 
     <style name="SH.Title">
-        <item name="android:fontFamily">@font/sora_extrabold</item>
+        <item name="android:fontFamily">@font/brand_extrabold</item>
         <!-- AppCompat's fontFamily wins over android:fontFamily, so both are needed to override the theme font. -->
-        <item name="fontFamily">@font/sora_extrabold</item>
+        <item name="fontFamily">@font/brand_extrabold</item>
         <item name="android:textSize">@dimen/_17ssp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/sh_text</item>
@@ -64,9 +64,9 @@
     </style>
 
     <style name="SH.Cta" parent="Widget.Material3.Button">
-        <item name="android:fontFamily">@font/sora_extrabold</item>
+        <item name="android:fontFamily">@font/brand_extrabold</item>
         <!-- AppCompat's fontFamily wins over android:fontFamily, so both are needed to override the theme font. -->
-        <item name="fontFamily">@font/sora_extrabold</item>
+        <item name="fontFamily">@font/brand_extrabold</item>
         <item name="android:layout_height">@dimen/_37sdp</item>
         <item name="android:insetTop">0dp</item>
         <item name="android:insetBottom">0dp</item>
@@ -116,7 +116,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">@dimen/_8ssp</item>
-        <item name="android:textColor">#C9CDD4</item>
+        <item name="android:textColor">#C4CEE6</item>
         <item name="android:maxLines">1</item>
     </style>
 
@@ -124,8 +124,8 @@
     <style name="SH.Watermark">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:fontFamily">@font/sora_extrabold</item>
-        <item name="fontFamily">@font/sora_extrabold</item>
+        <item name="android:fontFamily">@font/brand_extrabold</item>
+        <item name="fontFamily">@font/brand_extrabold</item>
         <item name="android:includeFontPadding">false</item>
         <item name="android:textColor">@color/watermark_on_option</item>
         <item name="android:importantForAccessibility">no</item>

@@ -1,4 +1,4 @@
 <!-- Neutral placeholder until the house-ad image loads (Glide replaces it). -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#1A1C23" />
+    <solid android:color="#161E33" />
 </shape>

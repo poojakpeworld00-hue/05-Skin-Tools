@@ -1,5 +1,6 @@
-<!-- Accent glow bleeding in from the top corner (design glowPulse blob). -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A faint accent wash in the top corner; Sticker Pop's backdrop is mostly its dot grid (screen_bg). -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
     <gradient android:type="radial" android:gradientRadius="50%"
-        android:startColor="#73FF3B5C" android:centerColor="#1FFF3B5C" android:endColor="#00FF3B5C" />
+        android:startColor="#2E2D6BFF" android:centerColor="#0F2D6BFF" android:endColor="#002D6BFF" />
 </shape>

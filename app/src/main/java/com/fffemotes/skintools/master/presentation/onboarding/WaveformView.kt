@@ -15,7 +15,7 @@ import kotlin.math.sin
 /** The setup sheet's voice waveform: [BARS] bars, filled up to [progress]; bars near the play head bounce while [playing]. */
 class WaveformView(context: Context, attrs: AttributeSet?) : View(context, attrs) {
     private val played = Paint(Paint.ANTI_ALIAS_FLAG).apply { color = ContextCompat.getColor(context, R.color.sh_primary) }
-    private val rest = Paint(Paint.ANTI_ALIAS_FLAG).apply { color = 0x47FF3B5C }
+    private val rest = Paint(Paint.ANTI_ALIAS_FLAG).apply { color = 0x472D6BFF }
     private var heights = FloatArray(BARS)
 
     var progress = 0f

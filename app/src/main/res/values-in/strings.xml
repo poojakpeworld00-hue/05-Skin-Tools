@@ -2,6 +2,7 @@
     <string name="splash_motto">BUKA · KUSTOMISASI · DOMINASI</string>
     <string name="step_of">Langkah %1$d dari %2$d</string>
     <string name="skip">Lewati</string>
+    <string name="step_of_total">dari %1$d</string>
     <string name="next">Lanjut →</string>
     <string name="get_started">Mulai →</string>
     <string name="back">Kembali</string>

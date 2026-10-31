@@ -2,6 +2,7 @@
     <string name="splash_motto">MỞ KHÓA · TÙY BIẾN · THỐNG TRỊ</string>
     <string name="step_of">Bước %1$d/%2$d</string>
     <string name="skip">Bỏ qua</string>
+    <string name="step_of_total">trên %1$d</string>
     <string name="next">Tiếp →</string>
     <string name="get_started">Bắt đầu →</string>
     <string name="back">Quay lại</string>

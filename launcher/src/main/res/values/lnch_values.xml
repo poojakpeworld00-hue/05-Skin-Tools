@@ -5,20 +5,20 @@
     <color name="lnch_black">#000000</color>
     <!-- Default-home hint sheet: the design's Seaglass palette (oklch tokens converted to sRGB). -->
     <!-- Default-home hint sheet: the app's dark Neon Rose palette (dark-only app, so no night variant). -->
-    <color name="lnch_home_hint_sheet_top">#3A1B24</color>
-    <color name="lnch_home_hint_row">#2A1A20</color>
+    <color name="lnch_home_hint_sheet_top">#132143</color>
+    <color name="lnch_home_hint_row">#15213F</color>
     <color name="lnch_home_hint_card_bd">#14FFFFFF</color>
-    <color name="lnch_home_hint_sheet">#14161D</color>
-    <color name="lnch_home_hint_surface">#1A1C23</color>
-    <color name="lnch_home_hint_card">#1A1C23</color>
-    <color name="lnch_home_hint_line">#24262D</color>
-    <color name="lnch_home_hint_ink">#F4F5F7</color>
-    <color name="lnch_home_hint_ink2">#9AA0AA</color>
-    <color name="lnch_home_hint_accent">#FF3B5C</color>
-    <color name="lnch_home_hint_accent_line">#66FF3B5C</color>
-    <color name="lnch_home_hint_accent_clear">#00FF3B5C</color>
+    <color name="lnch_home_hint_sheet">#0F1524</color>
+    <color name="lnch_home_hint_surface">#161E33</color>
+    <color name="lnch_home_hint_card">#161E33</color>
+    <color name="lnch_home_hint_line">#1E2845</color>
+    <color name="lnch_home_hint_ink">#EEF3FF</color>
+    <color name="lnch_home_hint_ink2">#8E9BB8</color>
+    <color name="lnch_home_hint_accent">#2D6BFF</color>
+    <color name="lnch_home_hint_accent_line">#662D6BFF</color>
+    <color name="lnch_home_hint_accent_clear">#002D6BFF</color>
     <color name="lnch_home_hint_lens">#1F1418</color>
-    <color name="lnch_home_hint_button">#FF3B5C</color>
+    <color name="lnch_home_hint_button">#2D6BFF</color>
     <color name="lnch_home_hint_button_text">#FFFFFF</color>
     <color name="lnch_home_hint_scrim">#8C040609</color>
     <color name="lnch_hint_accent">#2F7BF6</color>

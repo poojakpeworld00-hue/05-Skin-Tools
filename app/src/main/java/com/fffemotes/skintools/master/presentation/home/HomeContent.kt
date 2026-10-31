@@ -52,9 +52,9 @@ class HomeContent(
         b.headline.text = activity.getText(R.string.explore_today).accentBold(b.headline)
         b.glow.glowPulse()
 
-        // 2×2 grid of tool cards.
+        // Tools as a one-column list ("Skin Hub Variants" Sticker Pop home).
         val gap = resources.getDimensionPixelSize(SdpR.dimen._8sdp)
-        tools.chunked(2).forEach { pair ->
+        tools.chunked(1).forEach { pair ->
             val line = LinearLayout(activity)
             b.tools.addView(line, LinearLayout.LayoutParams(MATCH_PARENT, WRAP_CONTENT).apply { topMargin = gap })
             pair.forEachIndexed { i, tool ->

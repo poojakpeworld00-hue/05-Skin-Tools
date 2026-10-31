@@ -2,6 +2,7 @@
     <string name="splash_motto">FREISCHALTEN · ANPASSEN · DOMINIEREN</string>
     <string name="step_of">Schritt %1$d von %2$d</string>
     <string name="skip">Überspringen</string>
+    <string name="step_of_total">von %1$d</string>
     <string name="next">Weiter →</string>
     <string name="get_started">Los geht\'s →</string>
     <string name="back">Zurück</string>

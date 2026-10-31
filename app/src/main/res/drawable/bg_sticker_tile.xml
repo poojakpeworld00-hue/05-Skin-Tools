@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sticker Pop tile / row: 2dp neon edge and a hard 3dp offset shadow in the edge colour. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="3dp" android:top="3dp">
+        <shape><corners android:radius="@dimen/_10sdp" /><solid android:color="@color/sh_edge" /></shape>
+    </item>
+    <item android:right="3dp" android:bottom="3dp">
+        <shape><corners android:radius="@dimen/_10sdp" /><solid android:color="@color/sh_card" /><stroke android:width="2dp" android:color="@color/sh_edge" /></shape>
+    </item>
+</layer-list>

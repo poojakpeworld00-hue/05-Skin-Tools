@@ -1,53 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/SH.Bento"
+<!-- Sticker Pop tool row: outlined thumbnail, name and subtitle, an arrow; edge + hard shadow. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
     android:layout_weight="1"
-    app:cardCornerRadius="@dimen/_12sdp"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:background="@drawable/bg_sticker_tile"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="@drawable/fg_sticker_press"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/_50sdp"
+    android:paddingStart="@dimen/_7sdp"
+    android:paddingTop="@dimen/_6sdp"
+    android:paddingEnd="@dimen/_12sdp"
+    android:paddingBottom="@dimen/_8sdp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/_33sdp"
+        android:layout_height="@dimen/_33sdp"
+        android:background="@drawable/bg_sticker_thumb"
+        android:importantForAccessibility="no"
+        android:padding="@dimen/_8sdp" />
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@color/sh_card"
-        android:gravity="center_vertical"
-        android:minHeight="@dimen/_52sdp"
-        android:padding="@dimen/_7sdp">
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_weight="1"
+        android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/icon"
-            android:layout_width="@dimen/_33sdp"
-            android:layout_height="@dimen/_33sdp"
-            android:background="@drawable/bg_tool_icon"
-            android:importantForAccessibility="no"
-            android:padding="@dimen/_8sdp" />
-
-        <LinearLayout
-            android:layout_width="0dp"
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_7sdp"
-            android:layout_weight="1"
-            android:orientation="vertical">
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            android:textColor="@color/sh_text"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ellipsize="end"
-                android:maxLines="1"
-                android:textAlignment="viewStart"
-                android:textColor="@color/sh_text"
-                android:textSize="@dimen/_10ssp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/sub"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="viewStart"
-                android:textColor="@color/sh_muted"
-                android:textSize="@dimen/_8ssp" />
-        </LinearLayout>
+        <TextView
+            android:id="@+id/sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:textColor="@color/sh_muted"
+            android:textSize="@dimen/_8ssp" />
     </LinearLayout>
-</com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        android:text="→"
+        android:textColor="@color/sh_text"
+        android:textSize="@dimen/_13ssp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

@@ -4,7 +4,7 @@
     android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/sh_bg">
+    android:background="@drawable/screen_bg">
 
     <View
         android:id="@+id/glow"
@@ -61,47 +61,53 @@
                 android:src="@drawable/ic_back"
                 app:tint="@color/sh_muted" />
 
+            <!-- Sticker Pop step header: the number on a tilted accent sticker, then the step name and "of N". -->
             <LinearLayout
                 android:id="@+id/tracker"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_2sdp"
-                android:orientation="vertical">
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/stepNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_step_badge"
+                    android:fontFamily="@font/brand_extrabold"
+                    android:includeFontPadding="false"
+                    android:paddingStart="@dimen/_9sdp"
+                    android:paddingTop="@dimen/_4sdp"
+                    android:paddingEnd="@dimen/_11sdp"
+                    android:paddingBottom="@dimen/_6sdp"
+                    android:rotation="-3"
+                    android:textColor="@color/sh_on_accent"
+                    android:textSize="@dimen/_15ssp"
+                    app:fontFamily="@font/brand_extrabold" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:baselineAligned="true">
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/stepNum"
+                        android:id="@+id/stepName"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/sora_extrabold"
-                        android:includeFontPadding="false"
-                        android:letterSpacing="-0.04"
-                        android:textColor="@color/sh_primary"
-                        android:textSize="@dimen/_22ssp"
-                        app:fontFamily="@font/sora_extrabold" />
+                        android:textColor="@color/sh_text"
+                        android:textSize="@dimen/_11ssp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/stepTotal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="@dimen/_2sdp"
-                        android:textColor="@color/sh_dim"
-                        android:textSize="@dimen/_10ssp"
-                        android:textStyle="bold" />
+                        android:layout_marginTop="@dimen/_1sdp"
+                        android:textColor="@color/sh_muted"
+                        android:textSize="@dimen/_9ssp" />
                 </LinearLayout>
-
-                <TextView
-                    android:id="@+id/stepName"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/_2sdp"
-                    android:textColor="@color/sh_muted"
-                    android:textSize="@dimen/_10ssp"
-                    android:textStyle="bold" />
             </LinearLayout>
 
             <Space
@@ -118,24 +124,34 @@
                 android:gravity="center"
                 android:paddingHorizontal="@dimen/_8sdp"
                 android:text="@string/skip"
-                android:textColor="@color/sh_muted"
+                android:textColor="@color/sh_text"
                 android:textSize="@dimen/_10ssp"
                 android:textStyle="bold" />
         </LinearLayout>
 
-        <com.google.android.material.progressindicator.LinearProgressIndicator
-            android:id="@+id/progress"
+        <!-- Sticker Pop progress: a 14dp bar with a 2dp neon edge; the accent fill grows inside it. -->
+        <FrameLayout
+            android:id="@+id/progressFrame"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/_17sdp"
-            android:layout_marginTop="@dimen/_7sdp"
-            android:max="13"
-            app:indicatorColor="@color/sh_primary"
-            app:trackColor="#1AFFFFFF"
-            app:trackCornerRadius="2dp"
-            app:trackStopIndicatorSize="0dp"
-            app:indicatorTrackGapSize="0dp"
-            app:trackThickness="3dp" />
+            android:layout_height="14dp"
+            android:layout_marginHorizontal="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@drawable/bg_progress_frame"
+            android:padding="2dp">
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:max="13"
+                app:indicatorColor="@color/sh_primary"
+                app:indicatorTrackGapSize="0dp"
+                app:trackColor="@android:color/transparent"
+                app:trackCornerRadius="5dp"
+                app:trackStopIndicatorSize="0dp"
+                app:trackThickness="10dp" />
+        </FrameLayout>
 
         <LinearLayout
             android:id="@+id/body"

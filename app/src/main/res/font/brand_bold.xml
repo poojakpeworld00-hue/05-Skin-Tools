@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Rubik (SIL Open Font License; variable font from github.com/google/fonts), the font of this app's "Sticker Pop" look. -->
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font android:font="@font/rubik_wght" android:fontStyle="normal" android:fontWeight="700" android:fontVariationSettings="'wght' 700"
+        app:font="@font/rubik_wght" app:fontStyle="normal" app:fontWeight="700" app:fontVariationSettings="'wght' 700" />
+</font-family>

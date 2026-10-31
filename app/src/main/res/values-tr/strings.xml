@@ -2,6 +2,7 @@
     <string name="splash_motto">KİLİDİ AÇ · ÖZELLEŞTİR · DOMİNE ET</string>
     <string name="step_of">Adım %1$d / %2$d</string>
     <string name="skip">Atla</string>
+    <string name="step_of_total">%1$d adımdan</string>
     <string name="next">İleri →</string>
     <string name="get_started">Başla →</string>
     <string name="back">Geri</string>

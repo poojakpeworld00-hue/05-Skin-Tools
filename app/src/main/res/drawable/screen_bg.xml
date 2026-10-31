@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sticker Pop backdrop: near-black with a faint neon-blue dot every 16dp. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><shape><solid android:color="@color/sh_bg" /></shape></item>
+    <item><bitmap android:src="@drawable/dot_cell" android:tileMode="repeat" /></item>
+</layer-list>

@@ -24,3 +24,4 @@ local.properties
 
 /app/release/output-metadata.json
 /docs/remote-config/TEST_uninstall_app_config_debug.json
+/app/build

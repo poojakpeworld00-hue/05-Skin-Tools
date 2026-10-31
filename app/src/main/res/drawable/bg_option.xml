@@ -1,16 +1,24 @@
-<!-- Option row/card: card with a faint outline; solid accent once selected (design "solid accent fill on selection"). -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sticker Pop option: card with a neon outline and a hard offset shadow; solid accent once selected, shadow pushed further. -->
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_selected="true">
-        <shape>
-            <corners android:radius="@dimen/_12sdp" />
-            <solid android:color="@color/sh_primary" />
-        </shape>
+        <layer-list>
+            <item android:left="4dp" android:top="4dp">
+                <shape><corners android:radius="@dimen/_9sdp" /><solid android:color="@color/sh_shadow_sel" /></shape>
+            </item>
+            <item android:right="4dp" android:bottom="4dp">
+                <shape><corners android:radius="@dimen/_9sdp" /><solid android:color="@color/sh_primary" /><stroke android:width="2dp" android:color="@color/sh_edge" /></shape>
+            </item>
+        </layer-list>
     </item>
     <item>
-        <shape>
-            <corners android:radius="@dimen/_12sdp" />
-            <solid android:color="@color/sh_card" />
-            <stroke android:width="1.5dp" android:color="#14FFFFFF" />
-        </shape>
+        <layer-list>
+            <item android:left="3dp" android:top="3dp" android:right="1dp" android:bottom="1dp">
+                <shape><corners android:radius="@dimen/_9sdp" /><solid android:color="@color/sh_shadow" /></shape>
+            </item>
+            <item android:right="4dp" android:bottom="4dp">
+                <shape><corners android:radius="@dimen/_9sdp" /><solid android:color="@color/sh_card" /><stroke android:width="2dp" android:color="@color/sh_edge" /></shape>
+            </item>
+        </layer-list>
     </item>
 </selector>

@@ -2,6 +2,7 @@
     <string name="splash_motto">अनलॉक · कस्टमाइज़ · डोमिनेट</string>
     <string name="step_of">चरण %1$d / %2$d</string>
     <string name="skip">छोड़ें</string>
+    <string name="step_of_total">%1$d में से</string>
     <string name="next">आगे →</string>
     <string name="get_started">शुरू करें →</string>
     <string name="back">वापस</string>

@@ -166,12 +166,12 @@ class HomeSetupDemo(private val b: ViewHomeDemoBinding) {
             }
             p.root.background = GradientDrawable().apply {
                 cornerRadius = 20 * dp
-                setColor(if (act) 0xFF2A1A20.toInt() else ContextCompat.getColor(ctx, R.color.sh_card))
-                setStroke(px(1), if (act) 0xFF5A2A36.toInt() else ContextCompat.getColor(ctx, R.color.sh_border))
+                setColor(if (act) 0xFF15213F.toInt() else ContextCompat.getColor(ctx, R.color.sh_card))
+                setStroke(px(1), if (act) 0xFF24407F.toInt() else ContextCompat.getColor(ctx, R.color.sh_border))
             }
             p.railIcon.setImageResource(if (done) R.drawable.ic_check else RAIL_ICONS[i])
-            p.railIcon.background.mutate().setTint(when { act -> accent; done -> 0xFF3A1B24.toInt(); else -> 0xFF1A1C23.toInt() })
-            p.railIcon.setColorFilter(when { act -> 0xFFFFFFFF.toInt(); done -> 0xFFFF8FA3.toInt(); else -> ContextCompat.getColor(ctx, R.color.sh_muted) })
+            p.railIcon.background.mutate().setTint(when { act -> accent; done -> 0xFF132143.toInt(); else -> 0xFF161E33.toInt() })
+            p.railIcon.setColorFilter(when { act -> 0xFFFFFFFF.toInt(); done -> 0xFF8FB0FF.toInt(); else -> ContextCompat.getColor(ctx, R.color.sh_muted) })
             p.railLabel.alpha = 0f
             p.railLabel.translationX = -6 * dp
             if (act) p.railLabel.animate().alpha(1f).translationX(0f).setStartDelay(200).setDuration(450).setInterpolator(emphasized).start()
@@ -216,7 +216,7 @@ class HomeSetupDemo(private val b: ViewHomeDemoBinding) {
     private fun icon(src: Int, bg: Int, padSdp: Int) = ImageView(ctx).apply {
         setImageResource(src)
         setBackgroundResource(bg)
-        setColorFilter(0xFFFF8FA3.toInt())
+        setColorFilter(0xFF8FB0FF.toInt())
         val p = (padSdp * res.getDimension(com.intuit.sdp.R.dimen._1sdp)).toInt()
         setPadding(p, p, p, p)
     }

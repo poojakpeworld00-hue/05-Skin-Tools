@@ -2,6 +2,7 @@
     <string name="splash_motto">アンロック · カスタマイズ · 制圧</string>
     <string name="step_of">ステップ %1$d / %2$d</string>
     <string name="skip">スキップ</string>
+    <string name="step_of_total">全%1$d中</string>
     <string name="next">次へ →</string>
     <string name="get_started">はじめる →</string>
     <string name="back">戻る</string>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Home, Claude Design "Skin Hub Onboarding v2" home: two-tone header, bento tiles, 2×2 tools grid. -->
+<!-- Home, Claude Design "Skin Hub Variants" Sticker Pop: tilted brand tag, outlined 2-column category tiles, tools list. -->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/sh_bg">
+    android:background="@drawable/screen_bg">
 
     <View
         android:id="@+id/glow"
@@ -53,10 +53,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:letterSpacing="0.14"
+                    android:background="@drawable/bg_sticker_tag"
+                    android:letterSpacing="0.1"
+                    android:paddingHorizontal="@dimen/_6sdp"
+                    android:paddingVertical="@dimen/_2sdp"
+                    android:rotation="-2"
                     android:text="@string/home_brand"
-                    android:textColor="@color/sh_primary"
-                    android:textSize="@dimen/_9ssp"
+                    android:textColor="@color/sh_on_accent"
+                    android:textSize="@dimen/_8ssp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -65,6 +69,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:letterSpacing="-0.02"
+                    android:layout_marginTop="@dimen/_5sdp"
                     android:text="@string/explore_today"
                     android:textAlignment="viewStart"
                     android:textSize="@dimen/_16ssp" />
@@ -85,315 +90,215 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_205sdp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_8sdp">
 
-        <com.google.android.material.card.MaterialCardView
+        <FrameLayout
             android:id="@+id/tileCharacters"
-            style="@style/SH.Bento"
             android:layout_width="0dp"
+            android:layout_height="@dimen/_83sdp"
             android:layout_weight="1"
-            android:layout_height="match_parent">
+            android:background="@drawable/bg_sticker_tile_tint"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="@drawable/fg_sticker_press">
 
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/bento_chars">
-                <TextView
-                    style="@style/SH.Watermark"
-                    android:layout_gravity="bottom|end"
-                    android:layout_marginEnd="@dimen/_minus3sdp"
-                    android:layout_marginBottom="@dimen/_minus15sdp"
-                    android:text="C"
-                    android:textSize="@dimen/_60ssp"
-                    tools:ignore="HardcodedText" />
+            <ImageView
+                android:id="@+id/tileCharactersArt"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:importantForAccessibility="no"
+                android:scaleType="fitEnd"
+                android:src="@drawable/ch_alok" />
 
-                <ImageView
-                    android:id="@+id/tileCharactersArt"
-                    android:importantForAccessibility="no"
-                    android:src="@drawable/ch_alok"
-                    android:layout_width="@dimen/_125sdp"
-                    android:layout_height="@dimen/_175sdp"
-                    android:layout_gravity="bottom|center_horizontal"
-                    android:scaleType="fitEnd" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_9sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:text="@string/cat_characters"
+                android:textColor="@color/sh_text"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+        </FrameLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/bento_fade" />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|start"
-                    android:layout_marginStart="@dimen/_10sdp"
-                    android:layout_marginBottom="@dimen/_8sdp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/SH.BentoTitle"
-                        android:text="@string/cat_characters" />
-                    <TextView
-                        style="@style/SH.BentoSub"
-                        android:text="@string/cat_characters_sub" />
-                </LinearLayout>
-            </FrameLayout>
-        </com.google.android.material.card.MaterialCardView>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_marginStart="@dimen/_8sdp"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-        <com.google.android.material.card.MaterialCardView
+        <FrameLayout
             android:id="@+id/tileBundles"
-            style="@style/SH.Bento"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/_117sdp">
-
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/bento_bundles">
-                <TextView
-                    style="@style/SH.Watermark"
-                    android:layout_gravity="bottom|end"
-                    android:layout_marginEnd="@dimen/_minus3sdp"
-                    android:layout_marginBottom="@dimen/_minus15sdp"
-                    android:text="B"
-                    android:textSize="@dimen/_60ssp"
-                    tools:ignore="HardcodedText" />
-
-                <ImageView
-                    android:id="@+id/tileBundlesArt"
-                    android:importantForAccessibility="no"
-                    android:src="@drawable/fc_bundles2"
-                    android:layout_width="@dimen/_92sdp"
-                    android:layout_height="@dimen/_108sdp"
-                    android:layout_gravity="top|end"
-                    android:layout_marginTop="@dimen/_5sdp"
-                    android:layout_marginEnd="@dimen/_2sdp"
-                    android:scaleType="fitCenter" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/bento_fade" />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|start"
-                    android:layout_marginStart="@dimen/_10sdp"
-                    android:layout_marginBottom="@dimen/_8sdp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/SH.BentoTitle"
-                        android:text="@string/cat_bundles" />
-                    <TextView
-                        style="@style/SH.BentoSub"
-                        android:text="@string/cat_bundles_sub" />
-                </LinearLayout>
-            </FrameLayout>
-        </com.google.android.material.card.MaterialCardView>
-
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/tileEmotes"
-            style="@style/SH.Bento"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_83sdp"
             android:layout_weight="1"
-            android:layout_marginTop="@dimen/_8sdp">
+            android:layout_marginStart="@dimen/_9sdp"
+            android:background="@drawable/bg_sticker_tile"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="@drawable/fg_sticker_press">
 
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/sh_card">
-                <TextView
-                    style="@style/SH.Watermark"
-                    android:layout_gravity="bottom|end"
-                    android:layout_marginEnd="@dimen/_minus3sdp"
-                    android:layout_marginBottom="@dimen/_minus15sdp"
-                    android:text="E"
-                    android:textSize="@dimen/_60ssp"
-                    tools:ignore="HardcodedText" />
+            <ImageView
+                android:id="@+id/tileBundlesArt"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:importantForAccessibility="no"
+                android:scaleType="fitEnd"
+                android:src="@drawable/fc_bundles2" />
 
-                <ImageView
-                    android:id="@+id/tileEmotesArt"
-                    android:importantForAccessibility="no"
-                    android:src="@drawable/fc_emotes"
-                    android:layout_width="@dimen/_50sdp"
-                    android:layout_height="@dimen/_42sdp"
-                    android:layout_gravity="top|end"
-                    android:layout_margin="@dimen/_5sdp"
-                    android:scaleType="fitCenter" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/bento_fade" />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|start"
-                    android:layout_marginStart="@dimen/_10sdp"
-                    android:layout_marginBottom="@dimen/_8sdp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/SH.BentoTitle"
-                        android:text="@string/cat_emotes" />
-                    <TextView
-                        style="@style/SH.BentoSub"
-                        android:text="@string/cat_emotes_sub" />
-                </LinearLayout>
-            </FrameLayout>
-        </com.google.android.material.card.MaterialCardView>
-            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_9sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:text="@string/cat_bundles"
+                android:textColor="@color/sh_text"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+        </FrameLayout>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_8sdp">
+            android:layout_marginTop="@dimen/_9sdp">
 
-        <com.google.android.material.card.MaterialCardView
+        <FrameLayout
             android:id="@+id/tileWeapons"
-            style="@style/SH.Bento"
             android:layout_width="0dp"
+            android:layout_height="@dimen/_83sdp"
             android:layout_weight="1"
-            android:layout_height="@dimen/_73sdp">
+            android:background="@drawable/bg_sticker_tile"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="@drawable/fg_sticker_press">
 
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/bento_weapons">
+            <ImageView
+                android:id="@+id/tileWeaponsArt"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:importantForAccessibility="no"
+                android:scaleType="fitEnd"
+                android:src="@drawable/fc_weapons2" />
 
-                <ImageView
-                    android:id="@+id/tileWeaponsArt"
-                    android:importantForAccessibility="no"
-                    android:src="@drawable/fc_weapons2"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/_46sdp"
-                    android:layout_gravity="top"
-                    android:layout_marginHorizontal="@dimen/_6sdp"
-                    android:layout_marginTop="@dimen/_5sdp"
-                    android:scaleType="fitCenter" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_9sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:text="@string/cat_weapons"
+                android:textColor="@color/sh_text"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+        </FrameLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/bento_fade" />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|start"
-                    android:layout_marginStart="@dimen/_10sdp"
-                    android:layout_marginBottom="@dimen/_8sdp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/SH.BentoTitle"
-                        android:text="@string/cat_weapons"
-                        android:textSize="@dimen/_10ssp" />
-                </LinearLayout>
-            </FrameLayout>
-        </com.google.android.material.card.MaterialCardView>
-
-        <com.google.android.material.card.MaterialCardView
+        <FrameLayout
             android:id="@+id/tilePets"
-            style="@style/SH.Bento"
             android:layout_width="0dp"
+            android:layout_height="@dimen/_83sdp"
             android:layout_weight="1"
-            android:layout_height="@dimen/_73sdp"
-            android:layout_marginStart="@dimen/_8sdp">
+            android:layout_marginStart="@dimen/_9sdp"
+            android:background="@drawable/bg_sticker_tile"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="@drawable/fg_sticker_press">
 
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/sh_card">
+            <ImageView
+                android:id="@+id/tilePetsArt"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:importantForAccessibility="no"
+                android:scaleType="fitEnd"
+                android:src="@drawable/fc_pets2" />
 
-                <ImageView
-                    android:id="@+id/tilePetsArt"
-                    android:importantForAccessibility="no"
-                    android:src="@drawable/fc_pets2"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/_46sdp"
-                    android:layout_gravity="top"
-                    android:layout_marginHorizontal="@dimen/_6sdp"
-                    android:layout_marginTop="@dimen/_5sdp"
-                    android:scaleType="fitCenter" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_9sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:text="@string/cat_pets"
+                android:textColor="@color/sh_text"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+        </FrameLayout>
+        </LinearLayout>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/bento_fade" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_9sdp">
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|start"
-                    android:layout_marginStart="@dimen/_10sdp"
-                    android:layout_marginBottom="@dimen/_8sdp"
-                    android:orientation="vertical">
+        <FrameLayout
+            android:id="@+id/tileEmotes"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_83sdp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_sticker_tile"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="@drawable/fg_sticker_press">
 
-                    <TextView
-                        style="@style/SH.BentoTitle"
-                        android:text="@string/cat_pets"
-                        android:textSize="@dimen/_10ssp" />
-                </LinearLayout>
-            </FrameLayout>
-        </com.google.android.material.card.MaterialCardView>
+            <ImageView
+                android:id="@+id/tileEmotesArt"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:importantForAccessibility="no"
+                android:scaleType="fitEnd"
+                android:src="@drawable/fc_emotes" />
 
-        <com.google.android.material.card.MaterialCardView
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_9sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:text="@string/cat_emotes"
+                android:textColor="@color/sh_text"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
             android:id="@+id/tileVehicles"
-            style="@style/SH.Bento"
             android:layout_width="0dp"
+            android:layout_height="@dimen/_83sdp"
             android:layout_weight="1"
-            android:layout_height="@dimen/_73sdp"
-            android:layout_marginStart="@dimen/_8sdp">
+            android:layout_marginStart="@dimen/_9sdp"
+            android:background="@drawable/bg_sticker_tile"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="@drawable/fg_sticker_press">
 
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/sh_card">
+            <ImageView
+                android:id="@+id/tileVehiclesArt"
+                android:layout_width="@dimen/_65sdp"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:importantForAccessibility="no"
+                android:scaleType="fitEnd"
+                android:src="@drawable/fc_vehicles" />
 
-                <ImageView
-                    android:id="@+id/tileVehiclesArt"
-                    android:importantForAccessibility="no"
-                    android:src="@drawable/fc_vehicles"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/_46sdp"
-                    android:layout_gravity="top"
-                    android:layout_marginHorizontal="@dimen/_6sdp"
-                    android:layout_marginTop="@dimen/_5sdp"
-                    android:scaleType="fitCenter" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/bento_fade" />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|start"
-                    android:layout_marginStart="@dimen/_10sdp"
-                    android:layout_marginBottom="@dimen/_8sdp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/SH.BentoTitle"
-                        android:text="@string/cat_vehicles"
-                        android:textSize="@dimen/_10ssp" />
-                </LinearLayout>
-            </FrameLayout>
-        </com.google.android.material.card.MaterialCardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_9sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:text="@string/cat_vehicles"
+                android:textColor="@color/sh_text"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+        </FrameLayout>
         </LinearLayout>
 
         <TextView

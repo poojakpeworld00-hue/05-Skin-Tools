@@ -301,7 +301,7 @@ class OnboardingActivity : AppCompatActivity(), SystemKeyTarget {
             append(" · ").append(resources.getQuantityString(R.plurals.sh_to_go, left, left))
         }
         v.sheetSaved.text = SpannableStringBuilder(getString(R.string.sh_saved)).apply {
-            setSpan(ForegroundColorSpan(0xFFC9CDD4.toInt()), 0, length, 0)
+            setSpan(ForegroundColorSpan(0xFFC4CEE6.toInt()), 0, length, 0)
             setSpan(StyleSpan(Typeface.BOLD), 0, length, 0)
             append(" ").append(getString(R.string.sh_saved_text))
         }
@@ -572,10 +572,10 @@ class OnboardingActivity : AppCompatActivity(), SystemKeyTarget {
             val obSteps = steps.filter { it.key !in INFO_STEPS }
             val obNumber = obSteps.indexOf(step) + 1
             b.tracker.visibility = if (obNumber > 0) View.VISIBLE else View.INVISIBLE
-            b.progress.visibility = b.tracker.visibility
+            b.progressFrame.visibility = b.tracker.visibility
             b.progress.max = obSteps.size.coerceAtLeast(1)
             b.stepNum.text = "%02d".format(obNumber)
-            b.stepTotal.text = "/${obSteps.size}"
+            b.stepTotal.text = getString(R.string.step_of_total, obSteps.size)
             if (obNumber > 0) b.progress.setProgressCompat(obNumber, !first)
             b.title.updatePadding(top = resources.getDimensionPixelSize(if (hasBanner) SdpR.dimen._30sdp else SdpR.dimen._10sdp))
             b.skip.visibility = if (if (step.key == DEFAULT_HOME_KEY) viewModel.defaultHomeSkipButton else viewModel.skipButton) View.VISIBLE else View.GONE

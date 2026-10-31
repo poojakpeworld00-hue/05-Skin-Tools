@@ -94,23 +94,23 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/sora_extrabold"
+                    android:fontFamily="@font/brand_extrabold"
                     android:letterSpacing="-0.03"
                     android:text="@string/brand_skin"
                     android:textColor="@color/sh_text"
                     android:textSize="@dimen/_27ssp"
-                    app:fontFamily="@font/sora_extrabold" />
+                    app:fontFamily="@font/brand_extrabold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_6sdp"
-                    android:fontFamily="@font/sora_extrabold"
+                    android:fontFamily="@font/brand_extrabold"
                     android:letterSpacing="-0.03"
                     android:text="@string/brand_emotes"
                     android:textColor="@color/sh_primary"
                     android:textSize="@dimen/_27ssp"
-                    app:fontFamily="@font/sora_extrabold" />
+                    app:fontFamily="@font/brand_extrabold" />
             </LinearLayout>
 
             <TextView

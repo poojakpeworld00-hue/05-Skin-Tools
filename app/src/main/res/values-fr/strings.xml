@@ -2,6 +2,7 @@
     <string name="splash_motto">DÉBLOQUE · PERSONNALISE · DOMINE</string>
     <string name="step_of">Étape %1$d sur %2$d</string>
     <string name="skip">Passer</string>
+    <string name="step_of_total">sur %1$d</string>
     <string name="next">Suivant →</string>
     <string name="get_started">Commencer →</string>
     <string name="back">Retour</string>

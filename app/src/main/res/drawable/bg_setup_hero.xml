@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <corners android:topLeftRadius="@dimen/_23sdp" android:topRightRadius="@dimen/_23sdp" />
-    <gradient android:angle="315" android:startColor="#33FF3B5C" android:centerColor="#0DFF3B5C" android:endColor="#1AFF3B5C" />
+    <gradient android:angle="315" android:startColor="#332D6BFF" android:centerColor="#0D2D6BFF" android:endColor="#1A2D6BFF" />
 </shape>

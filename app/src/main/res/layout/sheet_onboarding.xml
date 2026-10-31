@@ -62,7 +62,7 @@
                             android:layout_gravity="center"
                             android:background="@drawable/bg_setup_badge"
                             android:elevation="6dp"
-                            android:fontFamily="@font/sora_extrabold"
+                            android:fontFamily="@font/brand_extrabold"
                             android:gravity="center"
                             android:importantForAccessibility="no"
                             android:outlineAmbientShadowColor="@color/sh_primary"
@@ -83,7 +83,7 @@
                             android:id="@+id/sheetEyebrow"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/sora_extrabold"
+                            android:fontFamily="@font/brand_extrabold"
                             android:letterSpacing="0.14"
                             android:textAlignment="viewStart"
                             android:textColor="@color/sh_primary"
@@ -95,7 +95,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/_2sdp"
-                            android:fontFamily="@font/sora_extrabold"
+                            android:fontFamily="@font/brand_extrabold"
                             android:letterSpacing="-0.02"
                             android:textAlignment="viewStart"
                             android:textColor="@color/sh_text"
@@ -123,9 +123,9 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:fontFamily="@font/sora_bold"
+                        android:fontFamily="@font/brand_bold"
                         android:textAlignment="viewStart"
-                        android:textColor="#C9CDD4"
+                        android:textColor="#C4CEE6"
                         android:textSize="@dimen/_10ssp"
                         tools:text="3 of 13 done" />
 
@@ -134,7 +134,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:drawablePadding="@dimen/_3sdp"
-                        android:fontFamily="@font/sora_bold"
+                        android:fontFamily="@font/brand_bold"
                         android:gravity="center_vertical"
                         android:textColor="@color/sh_primary"
                         android:textSize="@dimen/_10ssp"
@@ -234,7 +234,7 @@
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:fontFamily="@font/sora_extrabold"
+                                android:fontFamily="@font/brand_extrabold"
                                 android:letterSpacing="0.1"
                                 android:text="@string/sh_voice_guide"
                                 android:textAlignment="viewStart"
@@ -245,9 +245,9 @@
                                 android:id="@+id/voiceTime"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/sora_bold"
+                                android:fontFamily="@font/brand_bold"
                                 android:fontFeatureSettings="tnum"
-                                android:textColor="#C9CDD4"
+                                android:textColor="#C4CEE6"
                                 android:textSize="@dimen/_10ssp"
                                 tools:text="0:12" />
                         </LinearLayout>
@@ -269,7 +269,7 @@
                     android:lineSpacingMultiplier="1.15"
                     android:text="@string/sh_voice_text"
                     android:textAlignment="viewStart"
-                    android:textColor="#C9CDD4"
+                    android:textColor="#C4CEE6"
                     android:textSize="@dimen/_10ssp" />
             </LinearLayout>
 
@@ -310,14 +310,14 @@
                 android:layout_marginTop="@dimen/_3sdp"
                 android:background="?attr/selectableItemBackground"
                 android:drawablePadding="@dimen/_6sdp"
-                android:fontFamily="@font/sora_bold"
+                android:fontFamily="@font/brand_bold"
                 android:gravity="center"
                 android:minHeight="@dimen/_37sdp"
                 android:text="@string/sh_home"
-                android:textColor="#C9CDD4"
+                android:textColor="#C4CEE6"
                 android:textSize="@dimen/_12ssp"
                 app:drawableStartCompat="@drawable/ic_home"
-                app:drawableTint="#C9CDD4" />
+                app:drawableTint="#C4CEE6" />
 
             <TextView
                 android:id="@+id/sheetSaved"
@@ -357,6 +357,6 @@
             android:importantForAccessibility="no"
             android:padding="@dimen/_5sdp"
             android:src="@drawable/ic_close"
-            app:tint="#C9CDD4" />
+            app:tint="#C4CEE6" />
     </FrameLayout>
 </FrameLayout>
