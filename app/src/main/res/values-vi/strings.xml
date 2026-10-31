@@ -139,7 +139,7 @@
     <string name="settings_about">Giới thiệu</string>
     <string name="settings_version">Phiên bản %1$s</string>
     <string name="share_app">Chia sẻ ứng dụng</string>
-    <string name="share_app_sub">Giới thiệu Skin Tool cho bạn bè</string>
+    <string name="share_app_sub">Giới thiệu Skin Tools cho bạn bè</string>
     <string name="share_message">Xem ngay %1$s: %2$s</string>
     <string name="rate_app">Đánh giá</string>
     <string name="rate_app_sub">Thích ứng dụng? Hãy để lại đánh giá</string>
@@ -165,7 +165,7 @@
     <!-- Onboarding: set as default home (launcher) -->
     <string name="dh_title">Đặt làm <b>màn hình chính</b></string>
     <string name="dh_sub">Trang phục, gói và biểu cảm chỉ cách một lần vuốt.</string>
-    <string name="dh_c1">Chọn Skin Tool</string>
+    <string name="dh_c1">Chọn Skin Tools</string>
     <string name="dh_c2">Nhấn Luôn luôn</string>
     <string name="dh_c3">Đã thêm vào màn hình chính</string>
     <string name="dh_button">Đặt làm màn hình chính</string>
@@ -208,7 +208,7 @@
     <string name="update_app_sub">Tải phiên bản mới nhất</string>
     <string name="settings_profile">Hồ sơ</string>
     <!-- Onboarding: welcome and permissions screens -->
-    <string name="wl_title">Chào mừng đến với <b>Skin Tool</b></string>
+    <string name="wl_title">Chào mừng đến với <b>Skin Tools</b></string>
     <string name="wl_sub">Mọi thứ bạn chọn, sẵn sàng trên màn hình chính.</string>
     <string name="wl_c1">Nhân vật, gói và thú cưng</string>
     <string name="wl_c2">Vũ khí, xe và biểu cảm</string>

@@ -139,7 +139,7 @@
     <string name="settings_about">このアプリについて</string>
     <string name="settings_version">バージョン %1$s</string>
     <string name="share_app">アプリを共有</string>
-    <string name="share_app_sub">友達にSkin Toolを紹介</string>
+    <string name="share_app_sub">友達にSkin Toolsを紹介</string>
     <string name="share_message">%1$s をチェック: %2$s</string>
     <string name="rate_app">評価する</string>
     <string name="rate_app_sub">気に入ったらレビューをお願いします</string>
@@ -165,7 +165,7 @@
     <!-- Onboarding: set as default home (launcher) -->
     <string name="dh_title"><b>ホーム画面</b>に設定</string>
     <string name="dh_sub">スキン、バンドル、エモートがスワイプひとつで。</string>
-    <string name="dh_c1">Skin Tool を選ぶ</string>
+    <string name="dh_c1">Skin Tools を選ぶ</string>
     <string name="dh_c2">「常時」をタップ</string>
     <string name="dh_c3">ホームに追加されました</string>
     <string name="dh_button">ホーム画面にする</string>
@@ -208,7 +208,7 @@
     <string name="update_app_sub">最新バージョンを入手</string>
     <string name="settings_profile">プロフィール</string>
     <!-- Onboarding: welcome and permissions screens -->
-    <string name="wl_title"><b>Skin Tool</b> へようこそ</string>
+    <string name="wl_title"><b>Skin Tools</b> へようこそ</string>
     <string name="wl_sub">選んだものがすべてホーム画面に。</string>
     <string name="wl_c1">キャラクター・バンドル・ペット</string>
     <string name="wl_c2">武器・乗り物・エモート</string>

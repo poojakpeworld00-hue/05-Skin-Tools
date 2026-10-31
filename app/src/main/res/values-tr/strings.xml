@@ -139,7 +139,7 @@
     <string name="settings_about">Hakkında</string>
     <string name="settings_version">Sürüm %1$s</string>
     <string name="share_app">Uygulamayı paylaş</string>
-    <string name="share_app_sub">Skin Tool\'u arkadaşlarına anlat</string>
+    <string name="share_app_sub">Skin Tools\'u arkadaşlarına anlat</string>
     <string name="share_message">%1$s uygulamasına göz at: %2$s</string>
     <string name="rate_app">Bizi değerlendir</string>
     <string name="rate_app_sub">Uygulamayı beğendin mi? Yorum bırak</string>
@@ -165,7 +165,7 @@
     <!-- Onboarding: set as default home (launcher) -->
     <string name="dh_title"><b>Ana ekranın</b> yap</string>
     <string name="dh_sub">Kostümler, paketler ve emote\'lar bir kaydırma uzakta.</string>
-    <string name="dh_c1">Skin Tool\'u seç</string>
+    <string name="dh_c1">Skin Tools\'u seç</string>
     <string name="dh_c2">Her zaman\'a dokun</string>
     <string name="dh_c3">Ana ekrana eklendi</string>
     <string name="dh_button">Ana ekranım yap</string>
@@ -208,7 +208,7 @@
     <string name="update_app_sub">En yeni sürümü al</string>
     <string name="settings_profile">Profil</string>
     <!-- Onboarding: welcome and permissions screens -->
-    <string name="wl_title"><b>Skin Tool</b>\'a hoş geldin</string>
+    <string name="wl_title"><b>Skin Tools</b>\'a hoş geldin</string>
     <string name="wl_sub">Seçtiğin her şey ana ekranında hazır.</string>
     <string name="wl_c1">Karakterler, paketler ve evcil hayvanlar</string>
     <string name="wl_c2">Silahlar, araçlar ve emote\'lar</string>

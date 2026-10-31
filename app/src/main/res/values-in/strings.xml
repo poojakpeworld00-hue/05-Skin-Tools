@@ -139,7 +139,7 @@
     <string name="settings_about">Tentang</string>
     <string name="settings_version">Versi %1$s</string>
     <string name="share_app">Bagikan aplikasi</string>
-    <string name="share_app_sub">Ceritakan Skin Tool ke temanmu</string>
+    <string name="share_app_sub">Ceritakan Skin Tools ke temanmu</string>
     <string name="share_message">Lihat %1$s: %2$s</string>
     <string name="rate_app">Beri rating</string>
     <string name="rate_app_sub">Suka aplikasinya? Tulis ulasan</string>
@@ -165,7 +165,7 @@
     <!-- Onboarding: set as default home (launcher) -->
     <string name="dh_title">Jadikan <b>layar utama</b></string>
     <string name="dh_sub">Skin, bundle, dan emote cuma satu geser.</string>
-    <string name="dh_c1">Pilih Skin Tool</string>
+    <string name="dh_c1">Pilih Skin Tools</string>
     <string name="dh_c2">Ketuk Selalu</string>
     <string name="dh_c3">Ditambahkan ke layar utama</string>
     <string name="dh_button">Jadikan layar utamaku</string>
@@ -208,7 +208,7 @@
     <string name="update_app_sub">Dapatkan versi terbaru</string>
     <string name="settings_profile">Profil</string>
     <!-- Onboarding: welcome and permissions screens -->
-    <string name="wl_title">Selamat datang di <b>Skin Tool</b></string>
+    <string name="wl_title">Selamat datang di <b>Skin Tools</b></string>
     <string name="wl_sub">Semua pilihanmu, siap di layar utama.</string>
     <string name="wl_c1">Karakter, bundle, dan pet</string>
     <string name="wl_c2">Senjata, kendaraan, dan emote</string>

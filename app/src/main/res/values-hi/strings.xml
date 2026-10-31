@@ -139,7 +139,7 @@
     <string name="settings_about">जानकारी</string>
     <string name="settings_version">संस्करण %1$s</string>
     <string name="share_app">ऐप शेयर करें</string>
-    <string name="share_app_sub">दोस्तों को Skin Tool के बारे में बताएं</string>
+    <string name="share_app_sub">दोस्तों को Skin Tools के बारे में बताएं</string>
     <string name="share_message">%1$s देखें: %2$s</string>
     <string name="rate_app">हमें रेट करें</string>
     <string name="rate_app_sub">ऐप पसंद आया? रिव्यू दें</string>
@@ -165,7 +165,7 @@
     <!-- Onboarding: set as default home (launcher) -->
     <string name="dh_title">इसे अपनी <b>होम स्क्रीन</b> बनाएं</string>
     <string name="dh_sub">आपकी स्किन, बंडल और इमोट बस एक स्वाइप दूर।</string>
-    <string name="dh_c1">Skin Tool चुनें</string>
+    <string name="dh_c1">Skin Tools चुनें</string>
     <string name="dh_c2">हमेशा पर टैप करें</string>
     <string name="dh_c3">होम में जुड़ गया</string>
     <string name="dh_button">इसे मेरी होम स्क्रीन बनाएं</string>
@@ -208,7 +208,7 @@
     <string name="update_app_sub">नया वर्ज़न पाएं</string>
     <string name="settings_profile">प्रोफ़ाइल</string>
     <!-- Onboarding: welcome and permissions screens -->
-    <string name="wl_title"><b>Skin Tool</b> में स्वागत है</string>
+    <string name="wl_title"><b>Skin Tools</b> में स्वागत है</string>
     <string name="wl_sub">आपकी हर पसंद, होम स्क्रीन पर तैयार।</string>
     <string name="wl_c1">किरदार, बंडल और पेट्स</string>
     <string name="wl_c2">हथियार, गाड़ियां और इमोट</string>

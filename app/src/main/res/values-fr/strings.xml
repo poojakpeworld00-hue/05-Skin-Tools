@@ -139,7 +139,7 @@
     <string name="settings_about">À propos</string>
     <string name="settings_version">Version %1$s</string>
     <string name="share_app">Partager l\'appli</string>
-    <string name="share_app_sub">Parle de Skin Tool à tes amis</string>
+    <string name="share_app_sub">Parle de Skin Tools à tes amis</string>
     <string name="share_message">Découvre %1$s : %2$s</string>
     <string name="rate_app">Nous noter</string>
     <string name="rate_app_sub">Tu aimes l\'appli ? Laisse un avis</string>
@@ -165,7 +165,7 @@
     <!-- Onboarding: set as default home (launcher) -->
     <string name="dh_title">Définir comme <b>écran d’accueil</b></string>
     <string name="dh_sub">Tes skins, packs et emotes à portée de glissement.</string>
-    <string name="dh_c1">Choisis Skin Tool</string>
+    <string name="dh_c1">Choisis Skin Tools</string>
     <string name="dh_c2">Appuie sur Toujours</string>
     <string name="dh_c3">Ajouté à l’accueil</string>
     <string name="dh_button">En faire mon écran d’accueil</string>
@@ -208,7 +208,7 @@
     <string name="update_app_sub">Obtenir la dernière version</string>
     <string name="settings_profile">Profil</string>
     <!-- Onboarding: welcome and permissions screens -->
-    <string name="wl_title">Bienvenue sur <b>Skin Tool</b></string>
+    <string name="wl_title">Bienvenue sur <b>Skin Tools</b></string>
     <string name="wl_sub">Tout ce que tu as choisi, prêt sur ton écran d’accueil.</string>
     <string name="wl_c1">Personnages, packs et animaux</string>
     <string name="wl_c2">Armes, véhicules et emotes</string>

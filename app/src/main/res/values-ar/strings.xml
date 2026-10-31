@@ -139,7 +139,7 @@
     <string name="settings_about">حول</string>
     <string name="settings_version">الإصدار %1$s</string>
     <string name="share_app">مشاركة التطبيق</string>
-    <string name="share_app_sub">أخبر أصدقاءك عن Skin Tool</string>
+    <string name="share_app_sub">أخبر أصدقاءك عن Skin Tools</string>
     <string name="share_message">اطّلع على %1$s: %2$s</string>
     <string name="rate_app">قيّمنا</string>
     <string name="rate_app_sub">هل أعجبك التطبيق؟ اترك تقييمًا</string>
@@ -165,7 +165,7 @@
     <!-- Onboarding: set as default home (launcher) -->
     <string name="dh_title">اجعله <b>شاشتك الرئيسية</b></string>
     <string name="dh_sub">الأزياء والحزم والإيموتات على بُعد سحبة واحدة.</string>
-    <string name="dh_c1">اختر Skin Tool</string>
+    <string name="dh_c1">اختر Skin Tools</string>
     <string name="dh_c2">اضغط دائمًا</string>
     <string name="dh_c3">أُضيف إلى الشاشة الرئيسية</string>
     <string name="dh_button">اجعله شاشتي الرئيسية</string>
@@ -208,7 +208,7 @@
     <string name="update_app_sub">احصل على أحدث إصدار</string>
     <string name="settings_profile">الملف الشخصي</string>
     <!-- Onboarding: welcome and permissions screens -->
-    <string name="wl_title">مرحبًا بك في <b>Skin Tool</b></string>
+    <string name="wl_title">مرحبًا بك في <b>Skin Tools</b></string>
     <string name="wl_sub">كل ما اخترته جاهز على شاشتك الرئيسية.</string>
     <string name="wl_c1">الشخصيات والحزم والحيوانات</string>
     <string name="wl_c2">الأسلحة والمركبات والإيموتات</string>
