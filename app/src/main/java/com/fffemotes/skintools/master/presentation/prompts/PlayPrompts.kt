@@ -1,5 +1,7 @@
 package com.fffemotes.skintools.master.presentation.prompts
 
+import com.fffemotes.skintools.master.CODE_PACKAGE
+
 import android.app.Activity
 import android.app.Application
 import android.os.Bundle
@@ -88,7 +90,7 @@ object AppUpdatePrompts : Application.ActivityLifecycleCallbacks {
     private var base: () -> BaseConfig = { BaseConfig() }
 
     override fun onActivityCreated(activity: Activity, savedInstanceState: Bundle?) {
-        if (activity is ComponentActivity && activity !is SplashActivity && activity.javaClass.name.startsWith(activity.packageName)) {
+        if (activity is ComponentActivity && activity !is SplashActivity && activity.javaClass.name.startsWith(CODE_PACKAGE)) {
             prompts[activity] = AppUpdatePrompt(activity)
         }
     }

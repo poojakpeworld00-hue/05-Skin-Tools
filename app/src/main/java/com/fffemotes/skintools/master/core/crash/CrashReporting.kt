@@ -1,5 +1,7 @@
 package com.fffemotes.skintools.master.core.crash
 
+import com.fffemotes.skintools.master.CODE_PACKAGE
+
 import android.app.Activity
 import android.app.ActivityManager
 import android.app.Application
@@ -130,7 +132,7 @@ object CrashReporting {
         val intent = when {
             action == CrashLoopGuard.Action.SAFE_SCREEN -> launchIntent()
             top?.javaClass?.name == HOME_ACTIVITY -> Intent(Intent.ACTION_MAIN).addCategory(Intent.CATEGORY_HOME).setPackage(app.packageName)
-            top != null && top.javaClass.name.startsWith(app.packageName) -> Intent(top.intent)
+            top != null && top.javaClass.name.startsWith(CODE_PACKAGE) -> Intent(top.intent)
             else -> launchIntent() // an ad / library screen broke: back to ours
         }
         // A new record (CLEAR_TASK: not handed to the crashed one) started before this process dies launches in a fresh process.

@@ -34,6 +34,9 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 
+/** This app's Kotlin package: its applicationId differs, so screen checks compare class names against this. */
+val CODE_PACKAGE: String = App::class.java.name.substringBeforeLast('.')
+
 /** Startup order follows the reference app: crash reporting → Remote Config → attribution → analytics → ads → launcher. */
 class App : Application() {
     lateinit var container: AppContainer
