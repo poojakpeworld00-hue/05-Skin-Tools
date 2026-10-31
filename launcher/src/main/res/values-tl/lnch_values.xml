@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">Analog na orasan</string>
+    <string name="launcher_app_info">Impormasyon ng app</string>
+    <string name="launcher_app_launcher_name">Mga Mensahe</string>
+    <string name="launcher_apps">Mga App</string>
+    <string name="launcher_clear">I-clear</string>
+    <string name="launcher_digital_clock_widget">Digital na orasan</string>
+    <string name="launcher_greeting_afternoon">Magandang hapon</string>
+    <string name="launcher_greeting_evening">Magandang gabi</string>
+    <string name="launcher_greeting_morning">Magandang umaga</string>
+    <string name="launcher_hint_default_sms_description">I-tap ang \"Itakda bilang default\" para matapos.</string>
+    <string name="launcher_hint_default_sms_title">Itakda bilang iyong SMS app</string>
+    <string name="launcher_hint_mock_toggle_row">Pahintulot</string>
+    <string name="launcher_hint_overlay_description">Ibabalik ka namin agad kapag naka-on na ito.</string>
+    <string name="launcher_hint_overlay_row">Payagan ang display sa ibabaw ng ibang app</string>
+    <string name="launcher_hint_overlay_title">I-on ang \"Display over other apps\"</string>
+    <string name="launcher_lock_device_admin_warning">Kapag pinatay ang admin permission, mawawalan ng bisa ang feature na double tap para i-lock ang screen.</string>
+    <string name="launcher_pseudo_widget_clock">Orasan</string>
+    <string name="launcher_pseudo_widget_search_bar">Search bar</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">Magtanong ng Kahit Ano…</string>
+    <string name="launcher_recent_apps">Kamakailang app</string>
+    <string name="launcher_search_apps_hint">Maghanap ng app</string>
+    <string name="launcher_search_in_apps">Maghanap sa mga app</string>
+    <string name="launcher_searched_apps">Hinanap na app</string>
+    <string name="launcher_see_less">Bawasan ang tingin</string>
+    <string name="launcher_see_more">Tingnan pa</string>
+    <string name="launcher_suggested_apps">Iminumungkahing app</string>
+    <string name="launcher_suggested_for_now">Mungkahi ngayon</string>
+    <string name="launcher_swipe_hint_tap">o i-tap kahit saan para subukan</string>
+    <string name="launcher_swipe_left_hint">Mag-swipe pakaliwa para sa paghahanap</string>
+    <string name="launcher_swipe_right_hint">Mag-swipe pakanan para sa Messages</string>
+    <string name="launcher_swipe_up_hint">Mag-swipe pataas para sa lahat ng app</string>
+    <string name="launcher_touch_hold_widget">Pindutin nang matagal ang widget at i-drag sa home screen mo</string>
+    <string name="launcher_uninstall">I-uninstall</string>
+    <string name="launcher_widget_too_big">Sobrang laki ng widget para sa kasalukuyang laki ng home screen</string>
+</resources>

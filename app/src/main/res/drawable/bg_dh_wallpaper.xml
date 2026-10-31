@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mock home wallpaper: dark base with Neon Rose and violet glows (reference mesh wallpaper, static). -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><shape><solid android:color="#16121A" /></shape></item>
+    <item><shape><gradient android:type="radial" android:gradientRadius="70%p" android:centerX="0.2" android:centerY="0.25" android:startColor="#80FF3B5C" android:endColor="#00FF3B5C" /></shape></item>
+    <item><shape><gradient android:type="radial" android:gradientRadius="70%p" android:centerX="0.85" android:centerY="0.7" android:startColor="#667B4DFF" android:endColor="#007B4DFF" /></shape></item>
+</layer-list>

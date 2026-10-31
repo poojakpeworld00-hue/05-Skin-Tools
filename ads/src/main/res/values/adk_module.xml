@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- View tags used by AdSlotGate / CollapsibleBackdrop. -->
+    <item name="tag_ad_slot_closed" type="id" />
+    <item name="tag_ad_slot_loading" type="id" />
+    <item name="tag_ad_slot_watched" type="id" />
+    <item name="tag_ad_slot_margins" type="id" />
+    <item name="tag_native_ad" type="id" />
+    <item name="tag_collapsible_backdrop" type="id" />
+
+    <style name="Theme.AdKit.Web" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:enforceStatusBarContrast" tools:targetApi="29">false</item>
+        <item name="android:enforceNavigationBarContrast" tools:targetApi="29">false</item>
+    </style>
+
+
+    <style name="Theme.AdKit.PackageResult" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:navigationBarColor">@color/pkgres_page</item>
+        <item name="android:statusBarColor">@color/pkgres_page</item>
+        <item name="android:windowBackground">@color/pkgres_page</item>
+    </style>
+
+    <style name="Theme.AdKit.Charging" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_charging_screen</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

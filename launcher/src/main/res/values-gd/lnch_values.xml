@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">Cleoc analogach</string>
+    <string name="launcher_app_info">Fiosrachadh an app</string>
+    <string name="launcher_app_launcher_name">Teachdaireachdan</string>
+    <string name="launcher_apps">Appaichean</string>
+    <string name="launcher_clear">Falamhaich</string>
+    <string name="launcher_digital_clock_widget">Cleoc didseatach</string>
+    <string name="launcher_greeting_afternoon">Feasgar math</string>
+    <string name="launcher_greeting_evening">Feasgar math</string>
+    <string name="launcher_greeting_morning">Madainn mhath</string>
+    <string name="launcher_hint_default_sms_description">Brùth air \"Suidhich mar am bunaiteach\" gus crìochnachadh.</string>
+    <string name="launcher_hint_default_sms_title">Suidhich mar an app SMS agad</string>
+    <string name="launcher_hint_mock_toggle_row">Cead</string>
+    <string name="launcher_hint_overlay_description">Bheir sinn air ais thu dìreach cho luath ’s a bhios e air.</string>
+    <string name="launcher_hint_overlay_row">Ceadaich sealladh os cionn appaichean eile</string>
+    <string name="launcher_hint_overlay_title">Cuir \"Seall os cionn appaichean eile\" air</string>
+    <string name="launcher_lock_device_admin_warning">Ma chuireas tu cead rianaire à comas, thèid am feart glasaidh le dà bhrag à comas cuideachd.</string>
+    <string name="launcher_pseudo_widget_clock">Cleoc</string>
+    <string name="launcher_pseudo_widget_search_bar">Bàr-luirg</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">Faighnich Dad…</string>
+    <string name="launcher_recent_apps">Appaichean o chionn ghoirid</string>
+    <string name="launcher_search_apps_hint">Lorg appaichean</string>
+    <string name="launcher_search_in_apps">Lorg am measg nan app</string>
+    <string name="launcher_searched_apps">Appaichean air an lorg</string>
+    <string name="launcher_see_less">Seall nas lugha</string>
+    <string name="launcher_see_more">Seall barrachd</string>
+    <string name="launcher_suggested_apps">Appaichean air am moladh</string>
+    <string name="launcher_suggested_for_now">Air a mholadh an-dràsta</string>
+    <string name="launcher_swipe_hint_tap">no brùth àite sam bith gus fheuchainn</string>
+    <string name="launcher_swipe_left_hint">Swipe dhan taobh chlì airson lorg</string>
+    <string name="launcher_swipe_right_hint">Swipe dhan taobh dheas airson Teachdaireachdan</string>
+    <string name="launcher_swipe_up_hint">Swipe suas airson a h-uile app</string>
+    <string name="launcher_touch_hold_widget">Cùm sìos air a’ widget agus slaod e chun an sgrìn dhachaigh agad</string>
+    <string name="launcher_uninstall">Dì-stàlaich</string>
+    <string name="launcher_widget_too_big">Tha am widget ro mhòr airson meud an sgrìn dhachaigh an-dràsta</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Offline: icon, title, text, Retry and Open settings ([NoInternet]). -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_sheet"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/_17sdp">
+
+    <ImageView
+        android:id="@+id/netIcon"
+        android:layout_width="@dimen/_54sdp"
+        android:layout_height="@dimen/_54sdp"
+        android:background="@drawable/bg_icon_chip"
+        android:importantForAccessibility="no"
+        android:padding="@dimen/_13sdp"
+        android:src="@drawable/ic_wifi_off" />
+
+    <TextView
+        style="@style/SH.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:text="@string/net_title" />
+
+    <TextView
+        style="@style/SH.Sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:gravity="center"
+        android:text="@string/net_body" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/netRetry"
+        style="@style/SH.Cta"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_17sdp"
+        android:text="@string/net_retry" />
+
+    <TextView
+        android:id="@+id/netSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:minHeight="@dimen/_32sdp"
+        android:text="@string/net_settings"
+        android:textColor="@color/sh_primary"
+        android:textSize="@dimen/_11ssp"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Design tokens from Claude Design "Skin Hub Onboarding v2" (dark only, Rose accent). -->
+    <color name="sh_bg">#0B0C10</color>
+    <color name="sh_card">#14161D</color>
+    <color name="sh_card2">#1A1C23</color>
+    <color name="sh_text">#F4F5F7</color>
+    <color name="sh_muted">#9AA0AA</color>
+    <color name="sh_dim">#5A5F6A</color>
+    <color name="sh_primary">#FF3B5C</color>
+    <color name="sh_accent">#E0234A</color>
+    <!-- Accent at 14% over the card. -->
+    <color name="sh_chip">#3A1B24</color>
+    <color name="sh_border">#24262D</color>
+    <color name="sh_track">#24262C</color>
+    <color name="sh_glow">#73FF3B5C</color>
+    <color name="sh_panel">#14161D</color>
+    <color name="sh_splash">#0B0C10</color>
+</resources>

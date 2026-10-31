@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">Relógio analógico</string>
+    <string name="launcher_app_info">Informações do aplicativo</string>
+    <string name="launcher_app_launcher_name">Iniciador</string>
+    <string name="launcher_apps">Apps</string>
+    <string name="launcher_clear">Limpar</string>
+    <string name="launcher_digital_clock_widget">Relógio digital</string>
+    <string name="launcher_greeting_afternoon">Boa tarde</string>
+    <string name="launcher_greeting_evening">Boa noite</string>
+    <string name="launcher_greeting_morning">Bom dia</string>
+    <string name="launcher_hint_default_sms_description">Toque em \"Definir como padrão\" para concluir.</string>
+    <string name="launcher_hint_default_sms_title">Defina como seu app de SMS</string>
+    <string name="launcher_hint_mock_toggle_row">Permissão</string>
+    <string name="launcher_hint_overlay_description">Vamos te trazer de volta assim que estiver ativado.</string>
+    <string name="launcher_hint_overlay_row">Permitir exibição sobre outros apps</string>
+    <string name="launcher_hint_overlay_title">Ative \"Exibir sobre outros apps\"</string>
+    <string name="launcher_lock_device_admin_warning">Desativar a permissão de administrador desabilitará o recurso de toque duplo para bloquear a tela.</string>
+    <string name="launcher_pseudo_widget_clock">Relógio</string>
+    <string name="launcher_pseudo_widget_search_bar">Barra de pesquisa</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">Pergunte Qualquer Coisa…</string>
+    <string name="launcher_recent_apps">Apps recentes</string>
+    <string name="launcher_search_apps_hint">Pesquisar apps</string>
+    <string name="launcher_search_in_apps">Pesquisar nos apps</string>
+    <string name="launcher_searched_apps">Apps pesquisados</string>
+    <string name="launcher_see_less">Ver menos</string>
+    <string name="launcher_see_more">Ver mais</string>
+    <string name="launcher_suggested_apps">Apps sugeridos</string>
+    <string name="launcher_suggested_for_now">Sugerido para agora</string>
+    <string name="launcher_swipe_hint_tap">ou toque em qualquer lugar para experimentar</string>
+    <string name="launcher_swipe_left_hint">Deslize para a esquerda para pesquisar</string>
+    <string name="launcher_swipe_right_hint">Deslize para a direita para o Mensagens</string>
+    <string name="launcher_swipe_up_hint">Deslize para cima para todos os apps</string>
+    <string name="launcher_touch_hold_widget">Toque e segure o widget e arraste-o para sua tela inicial</string>
+    <string name="launcher_uninstall">Desinstalar</string>
+    <string name="launcher_widget_too_big">O widget é muito grande para o tamanho atual da tela inicial</string>
+</resources>

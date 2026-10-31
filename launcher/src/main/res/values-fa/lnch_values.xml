@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">ساعت آنالوگ</string>
+    <string name="launcher_app_info">اطلاعات اپ</string>
+    <string name="launcher_app_launcher_name">پیام‌ها</string>
+    <string name="launcher_apps">اپ‌ها</string>
+    <string name="launcher_clear">پاک کردن</string>
+    <string name="launcher_digital_clock_widget">ساعت دیجیتال</string>
+    <string name="launcher_greeting_afternoon">ظهر بخیر</string>
+    <string name="launcher_greeting_evening">عصر بخیر</string>
+    <string name="launcher_greeting_morning">صبح بخیر</string>
+    <string name="launcher_hint_default_sms_description">برای پایان، \"تنظیم به‌عنوان پیش‌فرض\" را بزنید.</string>
+    <string name="launcher_hint_default_sms_title">آن را اپ پیامک خود کنید</string>
+    <string name="launcher_hint_mock_toggle_row">دسترسی</string>
+    <string name="launcher_hint_overlay_description">به‌محض روشن شدن، شما را برمی‌گردانیم.</string>
+    <string name="launcher_hint_overlay_row">اجازه نمایش روی سایر اپ‌ها</string>
+    <string name="launcher_hint_overlay_title">\"نمایش روی سایر اپ‌ها\" را روشن کنید</string>
+    <string name="launcher_lock_device_admin_warning">غیرفعال کردن دسترسی مدیر، قابلیت قفل صفحه با دو ضربه را غیرفعال می‌کند.</string>
+    <string name="launcher_pseudo_widget_clock">ساعت</string>
+    <string name="launcher_pseudo_widget_search_bar">نوار جستجو</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">هر چیزی بپرسید…</string>
+    <string name="launcher_recent_apps">اپ‌های اخیر</string>
+    <string name="launcher_search_apps_hint">جستجوی اپ‌ها</string>
+    <string name="launcher_search_in_apps">جستجو در اپ‌ها</string>
+    <string name="launcher_searched_apps">اپ‌های جستجوشده</string>
+    <string name="launcher_see_less">کمتر ببینید</string>
+    <string name="launcher_see_more">بیشتر ببینید</string>
+    <string name="launcher_suggested_apps">اپ‌های پیشنهادی</string>
+    <string name="launcher_suggested_for_now">پیشنهادی برای الان</string>
+    <string name="launcher_swipe_hint_tap">یا برای امتحان، هرجا ضربه بزنید</string>
+    <string name="launcher_swipe_left_hint">برای جستجو به چپ بکشید</string>
+    <string name="launcher_swipe_right_hint">برای پیام‌ها به راست بکشید</string>
+    <string name="launcher_swipe_up_hint">برای همه اپ‌ها بالا بکشید</string>
+    <string name="launcher_touch_hold_widget">ویجت را لمس نگه دارید و به صفحه اصلی خود بکشید</string>
+    <string name="launcher_uninstall">حذف نصب</string>
+    <string name="launcher_widget_too_big">ویجت برای اندازه فعلی صفحه اصلی خیلی بزرگ است</string>
+</resources>

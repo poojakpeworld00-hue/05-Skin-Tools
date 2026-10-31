@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">অ্যানালগ ঘড়ি</string>
+    <string name="launcher_app_info">অ্যাপ তথ্য</string>
+    <string name="launcher_app_launcher_name">Messages</string>
+    <string name="launcher_apps">অ্যাপস</string>
+    <string name="launcher_clear">মুছুন</string>
+    <string name="launcher_digital_clock_widget">ডিজিটাল ঘড়ি</string>
+    <string name="launcher_greeting_afternoon">শুভ অপরাহ্ন</string>
+    <string name="launcher_greeting_evening">শুভ সন্ধ্যা</string>
+    <string name="launcher_greeting_morning">শুভ সকাল</string>
+    <string name="launcher_hint_default_sms_description">শেষ করতে \"ডিফল্ট হিসেবে সেট করুন\" চাপুন।</string>
+    <string name="launcher_hint_default_sms_title">আপনার SMS অ্যাপ হিসেবে সেট করুন</string>
+    <string name="launcher_hint_mock_toggle_row">অনুমতি</string>
+    <string name="launcher_hint_overlay_description">চালু হলেই আপনাকে সরাসরি ফিরিয়ে আনব।</string>
+    <string name="launcher_hint_overlay_row">অন্য অ্যাপের উপরে প্রদর্শনের অনুমতি দিন</string>
+    <string name="launcher_hint_overlay_title">\"অন্য অ্যাপের উপরে প্রদর্শন\" চালু করুন</string>
+    <string name="launcher_lock_device_admin_warning">অ্যাডমিন অনুমতি নিষ্ক্রিয় করলে দুবার ট্যাপ করে স্ক্রিন লক করার ফিচার বন্ধ হয়ে যাবে।</string>
+    <string name="launcher_pseudo_widget_clock">ঘড়ি</string>
+    <string name="launcher_pseudo_widget_search_bar">সার্চ বার</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">যেকোনো কিছু জিজ্ঞাসা করুন…</string>
+    <string name="launcher_recent_apps">সাম্প্রতিক অ্যাপ</string>
+    <string name="launcher_search_apps_hint">অ্যাপ খুঁজুন</string>
+    <string name="launcher_search_in_apps">অ্যাপে খুঁজুন</string>
+    <string name="launcher_searched_apps">অনুসন্ধান করা অ্যাপ</string>
+    <string name="launcher_see_less">কম দেখুন</string>
+    <string name="launcher_see_more">আরও দেখুন</string>
+    <string name="launcher_suggested_apps">প্রস্তাবিত অ্যাপ</string>
+    <string name="launcher_suggested_for_now">এখনকার জন্য প্রস্তাবিত</string>
+    <string name="launcher_swipe_hint_tap">অথবা চেষ্টা করতে যেকোনো জায়গায় ট্যাপ করুন</string>
+    <string name="launcher_swipe_left_hint">অনুসন্ধানের জন্য বামদিকে সোয়াইপ করুন</string>
+    <string name="launcher_swipe_right_hint">Messages-এর জন্য ডানদিকে সোয়াইপ করুন</string>
+    <string name="launcher_swipe_up_hint">সব অ্যাপের জন্য উপরে সোয়াইপ করুন</string>
+    <string name="launcher_touch_hold_widget">উইজেটটি চেপে ধরে আপনার হোম স্ক্রিনে টেনে আনুন</string>
+    <string name="launcher_uninstall">আনইনস্টল</string>
+    <string name="launcher_widget_too_big">বর্তমান হোম স্ক্রিনের আকারের জন্য উইজেটটি খুব বড়</string>
+</resources>

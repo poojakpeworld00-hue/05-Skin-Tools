@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">指针时钟</string>
+    <string name="launcher_app_info">应用信息</string>
+    <string name="launcher_app_launcher_name">启动器</string>
+    <string name="launcher_apps">应用</string>
+    <string name="launcher_clear">清除</string>
+    <string name="launcher_digital_clock_widget">数字时钟</string>
+    <string name="launcher_greeting_afternoon">下午好</string>
+    <string name="launcher_greeting_evening">晚上好</string>
+    <string name="launcher_greeting_morning">早上好</string>
+    <string name="launcher_hint_default_sms_description">点击"设为默认"即可完成。</string>
+    <string name="launcher_hint_default_sms_title">设为你的短信应用</string>
+    <string name="launcher_hint_mock_toggle_row">权限</string>
+    <string name="launcher_hint_overlay_description">开启后我们会马上带你回来。</string>
+    <string name="launcher_hint_overlay_row">允许显示在其他应用上层</string>
+    <string name="launcher_hint_overlay_title">开启"显示在其他应用上层"</string>
+    <string name="launcher_lock_device_admin_warning">停用管理员权限将禁用双击锁屏功能。</string>
+    <string name="launcher_pseudo_widget_clock">时钟</string>
+    <string name="launcher_pseudo_widget_search_bar">搜索栏</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">有什么想问的…</string>
+    <string name="launcher_recent_apps">最近使用的应用</string>
+    <string name="launcher_search_apps_hint">搜索应用</string>
+    <string name="launcher_search_in_apps">在应用中搜索</string>
+    <string name="launcher_searched_apps">已搜索的应用</string>
+    <string name="launcher_see_less">收起</string>
+    <string name="launcher_see_more">显示更多</string>
+    <string name="launcher_suggested_apps">建议的应用</string>
+    <string name="launcher_suggested_for_now">当前建议</string>
+    <string name="launcher_swipe_hint_tap">或点击任意处试试看</string>
+    <string name="launcher_swipe_left_hint">向左滑开始搜索</string>
+    <string name="launcher_swipe_right_hint">向右滑打开短信</string>
+    <string name="launcher_swipe_up_hint">向上滑查看所有应用</string>
+    <string name="launcher_touch_hold_widget">长按微件并将其拖动到主屏幕</string>
+    <string name="launcher_uninstall">卸载</string>
+    <string name="launcher_widget_too_big">微件对当前屏幕尺寸而言太大了</string>
+</resources>

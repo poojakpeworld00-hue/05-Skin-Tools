@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">Analoge klok</string>
+    <string name="launcher_app_info">App-info</string>
+    <string name="launcher_app_launcher_name">Launcher</string>
+    <string name="launcher_apps">Apps</string>
+    <string name="launcher_clear">Wissen</string>
+    <string name="launcher_digital_clock_widget">Digitale klok</string>
+    <string name="launcher_greeting_afternoon">Goedemiddag</string>
+    <string name="launcher_greeting_evening">Goedenavond</string>
+    <string name="launcher_greeting_morning">Goedemorgen</string>
+    <string name="launcher_hint_default_sms_description">Tik op \"Instellen als standaard\" om te voltooien.</string>
+    <string name="launcher_hint_default_sms_title">Instellen als je SMS-app</string>
+    <string name="launcher_hint_mock_toggle_row">Toestemming</string>
+    <string name="launcher_hint_overlay_description">We brengen je meteen terug zodra het aanstaat.</string>
+    <string name="launcher_hint_overlay_row">Weergave over andere apps toestaan</string>
+    <string name="launcher_hint_overlay_title">Zet \"Weergeven boven andere apps\" aan</string>
+    <string name="launcher_lock_device_admin_warning">Als je het recht voor apparaatbeheer niet toekent, wordt de functie \'dubbeltikken om het scherm te vergrendelen\' uitgeschakeld.</string>
+    <string name="launcher_pseudo_widget_clock">Klok</string>
+    <string name="launcher_pseudo_widget_search_bar">Zoekbalk</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">Vraag iets…</string>
+    <string name="launcher_recent_apps">Recente apps</string>
+    <string name="launcher_search_apps_hint">Apps zoeken</string>
+    <string name="launcher_search_in_apps">Zoeken in apps</string>
+    <string name="launcher_searched_apps">Gezochte apps</string>
+    <string name="launcher_see_less">Minder weergeven</string>
+    <string name="launcher_see_more">Meer weergeven</string>
+    <string name="launcher_suggested_apps">Voorgestelde apps</string>
+    <string name="launcher_suggested_for_now">Nu voorgesteld</string>
+    <string name="launcher_swipe_hint_tap">of tik ergens om het te proberen</string>
+    <string name="launcher_swipe_left_hint">Veeg naar links om te zoeken</string>
+    <string name="launcher_swipe_right_hint">Veeg naar rechts voor Berichten</string>
+    <string name="launcher_swipe_up_hint">Veeg omhoog voor alle apps</string>
+    <string name="launcher_touch_hold_widget">Druk lang op de widget en sleep hem vervolgens naar het beginscherm</string>
+    <string name="launcher_uninstall">De-installeren</string>
+    <string name="launcher_widget_too_big">Widget is te groot voor de huidige afmetingen van het beginscherm</string>
+</resources>

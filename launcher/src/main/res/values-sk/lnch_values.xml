@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">Analógové hodiny</string>
+    <string name="launcher_app_info">Informácie o aplikácii</string>
+    <string name="launcher_app_launcher_name">Spúšťač</string>
+    <string name="launcher_apps">Aplikácie</string>
+    <string name="launcher_clear">Vymazať</string>
+    <string name="launcher_digital_clock_widget">Digitálne hodiny</string>
+    <string name="launcher_greeting_afternoon">Dobré popoludnie</string>
+    <string name="launcher_greeting_evening">Dobrý večer</string>
+    <string name="launcher_greeting_morning">Dobré ráno</string>
+    <string name="launcher_hint_default_sms_description">Ťuknite na \"Nastaviť ako predvolenú\" a dokončite to.</string>
+    <string name="launcher_hint_default_sms_title">Nastaviť ako vašu SMS aplikáciu</string>
+    <string name="launcher_hint_mock_toggle_row">Povolenie</string>
+    <string name="launcher_hint_overlay_description">Hneď ako to zapnete, vrátime vás späť.</string>
+    <string name="launcher_hint_overlay_row">Povoliť zobrazovanie cez iné aplikácie</string>
+    <string name="launcher_hint_overlay_title">Zapnite \"Zobrazovanie cez iné aplikácie\"</string>
+    <string name="launcher_lock_device_admin_warning">Deaktiváciou povolenia aplikácie na správu zariadenia sa funkcia dvojitého ťuknutia na uzamknutie obrazovky vypne.</string>
+    <string name="launcher_pseudo_widget_clock">Hodiny</string>
+    <string name="launcher_pseudo_widget_search_bar">Vyhľadávací panel</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">Opýtajte sa na čokoľvek…</string>
+    <string name="launcher_recent_apps">Nedávne aplikácie</string>
+    <string name="launcher_search_apps_hint">Hľadať aplikácie</string>
+    <string name="launcher_search_in_apps">Hľadať v aplikáciách</string>
+    <string name="launcher_searched_apps">Vyhľadané aplikácie</string>
+    <string name="launcher_see_less">Zobraziť menej</string>
+    <string name="launcher_see_more">Zobraziť viac</string>
+    <string name="launcher_suggested_apps">Navrhované aplikácie</string>
+    <string name="launcher_suggested_for_now">Navrhované teraz</string>
+    <string name="launcher_swipe_hint_tap">alebo ťuknite kdekoľvek a vyskúšajte to</string>
+    <string name="launcher_swipe_left_hint">Potiahnite doľava pre vyhľadávanie</string>
+    <string name="launcher_swipe_right_hint">Potiahnite doprava pre Messages</string>
+    <string name="launcher_swipe_up_hint">Potiahnite nahor pre všetky aplikácie</string>
+    <string name="launcher_touch_hold_widget">Umiestnite widget na domovskú obrazovku dlhým podržaním a potiahnutím</string>
+    <string name="launcher_uninstall">Odinštalovať</string>
+    <string name="launcher_widget_too_big">Widget je príliš veľký pre súčasnú domácu obrazovku</string>
+</resources>

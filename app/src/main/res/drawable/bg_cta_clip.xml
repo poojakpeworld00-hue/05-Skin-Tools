@@ -1,0 +1,5 @@
+<!-- Outline only: clips the CTA's shine to the button's corners. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/_10sdp" />
+    <solid android:color="#00000000" />
+</shape>

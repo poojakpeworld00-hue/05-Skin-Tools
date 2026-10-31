@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">Analoginis laikrodis</string>
+    <string name="launcher_app_info">Programos informacija</string>
+    <string name="launcher_app_launcher_name">Paleidyklė</string>
+    <string name="launcher_apps">Programos</string>
+    <string name="launcher_clear">Išvalyti</string>
+    <string name="launcher_digital_clock_widget">Skaitmeninis laikrodis</string>
+    <string name="launcher_greeting_afternoon">Laba diena</string>
+    <string name="launcher_greeting_evening">Labas vakaras</string>
+    <string name="launcher_greeting_morning">Labas rytas</string>
+    <string name="launcher_hint_default_sms_description">Palieskite „Nustatyti kaip numatytąją“, kad baigtumėte.</string>
+    <string name="launcher_hint_default_sms_title">Nustatykite kaip savo SMS programą</string>
+    <string name="launcher_hint_mock_toggle_row">Leidimas</string>
+    <string name="launcher_hint_overlay_description">Grąžinsime jus čia, kai tik tai bus įjungta.</string>
+    <string name="launcher_hint_overlay_row">Leisti rodymą virš kitų programų</string>
+    <string name="launcher_hint_overlay_title">Įjunkite „Rodymas virš kitų programų“</string>
+    <string name="launcher_lock_device_admin_warning">Išjungus administratoriaus leidimą, bus išjungta dvigubo palietimo ekrano užrakinimo funkcija.</string>
+    <string name="launcher_pseudo_widget_clock">Laikrodis</string>
+    <string name="launcher_pseudo_widget_search_bar">Paieškos juosta</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">Klauskite ko norite…</string>
+    <string name="launcher_recent_apps">Naujausios programos</string>
+    <string name="launcher_search_apps_hint">Ieškoti programų</string>
+    <string name="launcher_search_in_apps">Ieškoti programose</string>
+    <string name="launcher_searched_apps">Ieškotos programos</string>
+    <string name="launcher_see_less">Rodyti mažiau</string>
+    <string name="launcher_see_more">Rodyti daugiau</string>
+    <string name="launcher_suggested_apps">Siūlomos programos</string>
+    <string name="launcher_suggested_for_now">Siūloma dabar</string>
+    <string name="launcher_swipe_hint_tap">arba palieskite bet kur, kad išbandytumėte</string>
+    <string name="launcher_swipe_left_hint">Perbraukite kairėn, kad ieškotumėte</string>
+    <string name="launcher_swipe_right_hint">Perbraukite dešinėn, kad atvertumėte Žinutes</string>
+    <string name="launcher_swipe_up_hint">Perbraukite aukštyn, kad matytumėte visas programas</string>
+    <string name="launcher_touch_hold_widget">Ilgai paspauskite valdiklį ir nutempkite jį į pradžios ekraną.</string>
+    <string name="launcher_uninstall">Išdiegti</string>
+    <string name="launcher_widget_too_big">Valdiklis per didelis dabartiniam pradžios ekrano dydžiui.</string>
+</resources>

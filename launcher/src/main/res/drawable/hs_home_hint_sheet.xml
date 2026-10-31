@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Design: accent-tinted gradient (accent 16% over sheet, down to the sheet colour at 72%) with a 1dp accent-line top edge. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/lnch_home_hint_accent_line" />
+            <corners android:topLeftRadius="28dp" android:topRightRadius="28dp" />
+        </shape>
+    </item>
+    <item android:top="1dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:centerY="0.72"
+                android:startColor="@color/lnch_home_hint_sheet_top"
+                android:centerColor="@color/lnch_home_hint_sheet"
+                android:endColor="@color/lnch_home_hint_sheet" />
+            <corners android:topLeftRadius="28dp" android:topRightRadius="28dp" />
+        </shape>
+    </item>
+</layer-list>

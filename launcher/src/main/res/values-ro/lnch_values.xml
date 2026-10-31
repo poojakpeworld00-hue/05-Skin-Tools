@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">Ceas analogic</string>
+    <string name="launcher_app_info">Informații despre aplicație</string>
+    <string name="launcher_app_launcher_name">Lansator de aplicații</string>
+    <string name="launcher_apps">Aplicații</string>
+    <string name="launcher_clear">Șterge</string>
+    <string name="launcher_digital_clock_widget">Ceas digital</string>
+    <string name="launcher_greeting_afternoon">Bună ziua</string>
+    <string name="launcher_greeting_evening">Bună seara</string>
+    <string name="launcher_greeting_morning">Bună dimineața</string>
+    <string name="launcher_hint_default_sms_description">Atinge \"Setează ca implicit\" pentru a termina.</string>
+    <string name="launcher_hint_default_sms_title">Setează ca aplicație SMS</string>
+    <string name="launcher_hint_mock_toggle_row">Permisiune</string>
+    <string name="launcher_hint_overlay_description">Te aducem înapoi imediat ce e activată.</string>
+    <string name="launcher_hint_overlay_row">Permite afișarea peste alte aplicații</string>
+    <string name="launcher_hint_overlay_title">Activează \"Afișare peste alte aplicații\"</string>
+    <string name="launcher_lock_device_admin_warning">Dezactivarea permisiunii de administrator va dezactiva funcția de blocare a ecranului prin dublă atingere.</string>
+    <string name="launcher_pseudo_widget_clock">Ceas</string>
+    <string name="launcher_pseudo_widget_search_bar">Bară de căutare</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">Întreabă orice…</string>
+    <string name="launcher_recent_apps">Aplicații recente</string>
+    <string name="launcher_search_apps_hint">Caută aplicații</string>
+    <string name="launcher_search_in_apps">Caută în aplicații</string>
+    <string name="launcher_searched_apps">Aplicații căutate</string>
+    <string name="launcher_see_less">Vezi mai puțin</string>
+    <string name="launcher_see_more">Vezi mai mult</string>
+    <string name="launcher_suggested_apps">Aplicații sugerate</string>
+    <string name="launcher_suggested_for_now">Sugerate acum</string>
+    <string name="launcher_swipe_hint_tap">sau atinge oriunde pentru a încerca</string>
+    <string name="launcher_swipe_left_hint">Glisează la stânga pentru căutare</string>
+    <string name="launcher_swipe_right_hint">Glisează la dreapta pentru Mesaje</string>
+    <string name="launcher_swipe_up_hint">Glisează în sus pentru toate aplicațiile</string>
+    <string name="launcher_touch_hold_widget">Apăsați lung pe widget și trageți-l pe ecranul principal</string>
+    <string name="launcher_uninstall">Dezinstalați</string>
+    <string name="launcher_widget_too_big">Widget-ul este prea mare pentru dimensiunea ecranului principal</string>
+</resources>

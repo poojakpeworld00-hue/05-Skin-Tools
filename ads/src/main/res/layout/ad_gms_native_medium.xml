@@ -1,0 +1,107 @@
+<!-- Design NativeAd.dc.html "medium" (328x138): icon in the 104x72 media spot + Ad/headline/body (2 lines), button 36. Colours: RC ads.colors. -->
+<!-- Outer frame = the design's dock spacing (ad 328 wide in a 344 screen): 8dp sides, 8dp below. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/_7sdp"
+    android:paddingTop="@dimen/_3sdp"
+    android:paddingBottom="@dimen/_7sdp">
+
+    <com.google.android.gms.ads.nativead.NativeAdView android:id="@+id/mainNativeadView"
+        android:layout_width="match_parent"
+        android:background="@drawable/na_card"
+        android:padding="@dimen/_8sdp"
+        android:layout_height="@dimen/_115sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60sdp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvcalculate"
+                    android:layout_width="@dimen/_87sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardCornerRadius="@dimen/_8sdp"
+                    app:cardElevation="0dp">
+
+                    <!-- Design media spot (104x72). The app icon fills it: a MediaView this small is below AdMob's 120x120dp video minimum. -->
+                    <ImageView
+                        android:id="@+id/ad_app_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitCenter" />
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingTop="1dp"
+                    android:paddingEnd="@dimen/_12sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                        android:id="@+id/ad_badge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_13sdp"
+                        android:background="@drawable/na_badge"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:paddingHorizontal="@dimen/_4sdp"
+                        android:text="@string/adk_ad_badge"
+                        android:textSize="@dimen/_9ssp" />
+
+                        <TextView
+                        android:id="@+id/ad_headline"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:includeFontPadding="false"
+                        android:singleLine="true"
+                        android:textSize="@dimen/_12ssp" />
+                    </LinearLayout>
+
+                    <TextView
+                    android:id="@+id/ad_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:ellipsize="end"
+                    android:includeFontPadding="false"
+                    android:maxLines="2"
+                    android:textSize="@dimen/_10ssp" />
+                </LinearLayout>
+            </LinearLayout>
+
+                <TextView
+                android:id="@+id/ad_call_to_action"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:background="@drawable/na_cta"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:singleLine="true"
+                android:textSize="@dimen/_12ssp" />
+        </LinearLayout>
+    </com.google.android.gms.ads.nativead.NativeAdView>
+</FrameLayout>

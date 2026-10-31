@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">Zegar analogowy</string>
+    <string name="launcher_app_info">Informacje o aplikacji</string>
+    <string name="launcher_app_launcher_name">Launcher</string>
+    <string name="launcher_apps">Aplikacje</string>
+    <string name="launcher_clear">Wyczyść</string>
+    <string name="launcher_digital_clock_widget">Zegar cyfrowy</string>
+    <string name="launcher_greeting_afternoon">Dzień dobry</string>
+    <string name="launcher_greeting_evening">Dobry wieczór</string>
+    <string name="launcher_greeting_morning">Dzień dobry</string>
+    <string name="launcher_hint_default_sms_description">Dotknij \"Ustaw jako domyślną\", aby zakończyć.</string>
+    <string name="launcher_hint_default_sms_title">Ustaw jako aplikację SMS</string>
+    <string name="launcher_hint_mock_toggle_row">Uprawnienie</string>
+    <string name="launcher_hint_overlay_description">Wrócisz tu od razu, gdy to włączysz.</string>
+    <string name="launcher_hint_overlay_row">Zezwól na wyświetlanie nad innymi aplikacjami</string>
+    <string name="launcher_hint_overlay_title">Włącz \"Wyświetlanie nad innymi aplikacjami\"</string>
+    <string name="launcher_lock_device_admin_warning">Dezaktywacja uprawnienia administratora spowoduje wyłączenie funkcji dwukrotnego naciśnięcia w celu zablokowania ekranu.</string>
+    <string name="launcher_pseudo_widget_clock">Zegar</string>
+    <string name="launcher_pseudo_widget_search_bar">Pasek wyszukiwania</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">Zapytaj o cokolwiek…</string>
+    <string name="launcher_recent_apps">Ostatnie aplikacje</string>
+    <string name="launcher_search_apps_hint">Szukaj aplikacji</string>
+    <string name="launcher_search_in_apps">Szukaj w aplikacjach</string>
+    <string name="launcher_searched_apps">Wyszukane aplikacje</string>
+    <string name="launcher_see_less">Zobacz mniej</string>
+    <string name="launcher_see_more">Zobacz więcej</string>
+    <string name="launcher_suggested_apps">Sugerowane aplikacje</string>
+    <string name="launcher_suggested_for_now">Sugerowane teraz</string>
+    <string name="launcher_swipe_hint_tap">albo dotknij gdziekolwiek, aby wypróbować</string>
+    <string name="launcher_swipe_left_hint">Przesuń w lewo, aby wyszukać</string>
+    <string name="launcher_swipe_right_hint">Przesuń w prawo, aby otworzyć Messages</string>
+    <string name="launcher_swipe_up_hint">Przesuń w górę, aby zobaczyć wszystkie aplikacje</string>
+    <string name="launcher_touch_hold_widget">Długo naciśnij widżet i przeciągnij go na ekran główny</string>
+    <string name="launcher_uninstall">Odinstaluj</string>
+    <string name="launcher_widget_too_big">Widżet jest za duży dla aktualnego rozmiaru ekranu głównego</string>
+</resources>

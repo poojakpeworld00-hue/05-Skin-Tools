@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">Аналоговий годинник</string>
+    <string name="launcher_app_info">Про застосунок</string>
+    <string name="launcher_app_launcher_name">Лаунчер</string>
+    <string name="launcher_apps">Додатки</string>
+    <string name="launcher_clear">Очистити</string>
+    <string name="launcher_digital_clock_widget">Цифровий годинник</string>
+    <string name="launcher_greeting_afternoon">Доброго дня</string>
+    <string name="launcher_greeting_evening">Доброго вечора</string>
+    <string name="launcher_greeting_morning">Доброго ранку</string>
+    <string name="launcher_hint_default_sms_description">Натисніть \"Встановити за замовчуванням\", щоб завершити.</string>
+    <string name="launcher_hint_default_sms_title">Встановіть як SMS-додаток</string>
+    <string name="launcher_hint_mock_toggle_row">Дозвіл</string>
+    <string name="launcher_hint_overlay_description">Ми одразу повернемо вас назад, щойно це буде увімкнено.</string>
+    <string name="launcher_hint_overlay_row">Дозволити відображення поверх інших додатків</string>
+    <string name="launcher_hint_overlay_title">Увімкніть \"Відображення поверх інших додатків\"</string>
+    <string name="launcher_lock_device_admin_warning">Скасування прав адміністратора вимкне функцію подвійного дотику для блокування екрана.</string>
+    <string name="launcher_pseudo_widget_clock">Годинник</string>
+    <string name="launcher_pseudo_widget_search_bar">Рядок пошуку</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">Запитайте що завгодно…</string>
+    <string name="launcher_recent_apps">Недавні додатки</string>
+    <string name="launcher_search_apps_hint">Пошук додатків</string>
+    <string name="launcher_search_in_apps">Пошук серед додатків</string>
+    <string name="launcher_searched_apps">Знайдені додатки</string>
+    <string name="launcher_see_less">Показати менше</string>
+    <string name="launcher_see_more">Показати більше</string>
+    <string name="launcher_suggested_apps">Пропоновані додатки</string>
+    <string name="launcher_suggested_for_now">Пропоновано зараз</string>
+    <string name="launcher_swipe_hint_tap">або торкніться будь-де, щоб спробувати</string>
+    <string name="launcher_swipe_left_hint">Проведіть ліворуч для пошуку</string>
+    <string name="launcher_swipe_right_hint">Проведіть праворуч для Messages</string>
+    <string name="launcher_swipe_up_hint">Проведіть вгору для всіх додатків</string>
+    <string name="launcher_touch_hold_widget">Натисніть і утримуйте віджет і перетягніть його на головний екран</string>
+    <string name="launcher_uninstall">Видалити</string>
+    <string name="launcher_widget_too_big">Віджет надто великий для поточного розміру домашнього екрану</string>
+</resources>

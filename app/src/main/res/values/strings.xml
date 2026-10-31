@@ -1,0 +1,336 @@
+<resources>
+    <!-- App identity (not translated). app_name is the label in Android Settings; launcher_name sits under the icon. -->
+    <string name="app_name" translatable="false">#Skin Tool Emotes</string>
+    <string name="launcher_name" translatable="false">Skin Tool</string>
+    <string name="store_name" translatable="false">FFF Emotes &amp; Skin Tools</string>
+
+    <!-- Brand / proper nouns: never translated -->
+    <string name="brand_skin" translatable="false">Skin</string>
+    <string name="brand_emotes" translatable="false">Emotes</string>
+    <string name="home_brand" translatable="false">SKIN TOOL</string>
+    <string name="lang_en" translatable="false">English</string>
+    <string name="lang_hi" translatable="false">Hindi</string>
+    <string name="lang_hi_native" translatable="false">हिन्दी</string>
+    <string name="lang_id" translatable="false">Indonesian</string>
+    <string name="lang_id_native" translatable="false">Bahasa Indonesia</string>
+    <string name="lang_tr" translatable="false">Turkish</string>
+    <string name="lang_tr_native" translatable="false">Türkçe</string>
+    <string name="lang_vi" translatable="false">Vietnamese</string>
+    <string name="lang_vi_native" translatable="false">Tiếng Việt</string>
+    <string name="lang_ar" translatable="false">Arabic</string>
+    <string name="lang_ar_native" translatable="false">العربية</string>
+    <string name="lang_fr" translatable="false">French</string>
+    <string name="lang_fr_native" translatable="false">Français</string>
+    <string name="lang_de" translatable="false">German</string>
+    <string name="lang_de_native" translatable="false">Deutsch</string>
+    <string name="lang_ja" translatable="false">Japanese</string>
+    <string name="lang_ja_native" translatable="false">日本語</string>
+    <string name="age_18_24" translatable="false">18–24</string>
+    <string name="age_25_34" translatable="false">25–34</string>
+    <string name="age_35_44" translatable="false">35–44</string>
+    <string name="age_45" translatable="false">45+</string>
+    <string name="mode_br" translatable="false">Battle Royale</string>
+    <string name="mode_br_ranked" translatable="false">BR Ranked</string>
+    <string name="mode_cs" translatable="false">Clash Squad</string>
+    <string name="mode_cs_ranked" translatable="false">CS Ranked</string>
+    <string name="weapon_smg" translatable="false">SMG</string>
+    <string name="weapon_rifle_models" translatable="false">AK, M4A1, Groza</string>
+    <string name="weapon_smg_models" translatable="false">MP40, UMP, Thompson</string>
+    <string name="weapon_sniper_models" translatable="false">AWM, Kar98k, M82B</string>
+    <string name="weapon_shotgun_models" translatable="false">M1887, M1014, SPAS12</string>
+    <string name="char_alok" translatable="false">Alok</string>
+    <string name="char_chrono" translatable="false">Chrono</string>
+    <string name="char_k" translatable="false">K</string>
+    <string name="char_kelly" translatable="false">Kelly</string>
+    <string name="map_bermuda" translatable="false">Bermuda</string>
+    <string name="map_purgatory" translatable="false">Purgatory</string>
+    <string name="map_kalahari" translatable="false">Kalahari</string>
+    <string name="map_alpine" translatable="false">Alpine</string>
+
+    <!-- Splash -->
+    <string name="splash_motto">UNLOCK · CUSTOMIZE · DOMINATE</string>
+
+    <!-- Onboarding chrome -->
+    <string name="step_of">Step %1$d of %2$d</string>
+    <string name="skip">Skip</string>
+    <string name="next">Continue</string>
+    <string name="get_started">Get Started →</string>
+    <string name="back">Back</string>
+
+    <!-- Language -->
+    <string name="lang_title">Which <b>language</b> do you speak?</string>
+    <string name="lang_sub">You can change it anytime in Settings.</string>
+
+    <!-- Gender -->
+    <string name="gender_title">Tell us about <b>yourself</b></string>
+    <string name="gender_sub">Used to show relevant content.</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">Other</string>
+
+    <!-- Age -->
+    <string name="age_title">How <b>old</b> are you?</string>
+    <string name="age_sub">Choose your age group</string>
+    <string name="age_under_18">Under 18</string>
+    <string name="age_teen">Teenager</string>
+    <string name="age_young_adult">Young Adult</string>
+    <string name="age_adult">Adult</string>
+    <string name="age_professional">Professional</string>
+    <string name="age_mature">Mature</string>
+
+    <!-- Fighter style -->
+    <string name="style_title">Create your <b>fighter style</b></string>
+    <string name="style_sub">Pick the style that fits how you play.</string>
+    <string name="style_stealth">Stealth</string>
+    <string name="style_stealth_sub">Quiet, unseen movement</string>
+    <string name="style_rush">Rush</string>
+    <string name="style_rush_sub">Fast, aggressive pushes</string>
+    <string name="style_street">Street</string>
+    <string name="style_street_sub">Close-quarters, fast-paced</string>
+    <string name="style_tactical">Tactical</string>
+    <string name="style_tactical_sub">Plans every move</string>
+    <string name="style_survivor">Survivor</string>
+    <string name="style_survivor_sub">Outlasts every fight</string>
+    <string name="style_chill">Chill</string>
+    <string name="style_chill_sub">Relaxed, steady play</string>
+
+    <!-- Favourite content -->
+    <string name="fav_title">Choose your <b>fav content</b></string>
+    <string name="fav_sub">Pick one or more. We\'ll show these first on your home screen.</string>
+    <string name="fav_count">%1$d of %2$d selected</string>
+    <string name="select_all">Select all</string>
+    <string name="clear_all">Clear all</string>
+    <string name="cat_characters">Characters</string>
+    <string name="cat_characters_sub">Heroes &amp; skills</string>
+    <string name="cat_bundles">Bundles</string>
+    <string name="cat_bundles_sub">Outfit sets</string>
+    <string name="cat_weapons">Weapons</string>
+    <string name="cat_weapons_sub">Guns &amp; skins</string>
+    <string name="cat_pets">Pets</string>
+    <string name="cat_pets_sub">Companions</string>
+    <string name="cat_emotes">Emotes</string>
+    <string name="cat_emotes_sub">Moves &amp; dances</string>
+    <string name="cat_vehicles">Vehicles</string>
+    <string name="cat_vehicles_sub">Cars &amp; rides</string>
+
+    <!-- Questions -->
+    <string name="q_mode_title">Which <b>mode</b> do you prefer?</string>
+    <string name="q_mode_sub">Select your favourite game mode.</string>
+    <string name="q_weapon_title">Which <b>weapons</b> do you use most?</string>
+    <string name="q_weapon_sub">Choose your favourite weapon type.</string>
+    <string name="weapon_rifle">Rifle</string>
+    <string name="weapon_sniper">Sniper</string>
+    <string name="weapon_shotgun">Shotgun</string>
+    <string name="q_goal_title">What do you <b>need most</b> in the game?</string>
+    <string name="q_goal_sub">Select your top priority.</string>
+    <string name="goal_headshot">Better headshot skills</string>
+    <string name="goal_movement">Improve movement</string>
+    <string name="goal_diamonds">Get more diamonds</string>
+    <string name="goal_rank">Rank up faster</string>
+    <string name="q_char_title">Which <b>character</b> do you like most?</string>
+    <string name="q_char_sub">You can change this later.</string>
+    <string name="q_guide_title">What type of <b>tips</b> do you want?</string>
+    <string name="q_guide_sub">Choose the guidance you need.</string>
+    <string name="guide_pro">Pro tips &amp; tricks</string>
+    <string name="guide_settings">Settings &amp; sensitivity</string>
+    <string name="guide_maps">Map guides</string>
+    <string name="guide_events">Event updates</string>
+    <string name="q_room_title">Do you like <b>custom rooms</b>?</string>
+    <string name="q_room_sub">Tell us if you\'re interested in custom room guides.</string>
+    <string name="room_love">Yes, I love it</string>
+    <string name="room_sometimes">Sometimes</string>
+    <string name="room_no">Not really</string>
+    <string name="q_map_title">Which <b>map</b> do you play most?</string>
+    <string name="q_map_sub">Select your favourite map.</string>
+    <string name="map_players">%1$s · %2$d players</string>
+    <string name="map_classic">Classic</string>
+    <string name="map_strategy">Strategy</string>
+    <string name="map_desert">Desert</string>
+    <string name="map_ranked">Ranked</string>
+    <string name="q_daily_title">Would you like <b>daily tips</b>?</string>
+    <string name="q_daily_sub">Get daily tips, tricks and updates.</string>
+    <string name="daily_yes">Yes, send me daily tips</string>
+    <string name="daily_later">Maybe later</string>
+    <string name="daily_no">No, thanks</string>
+
+    <!-- Home -->
+    <string name="tool_tips">Tips &amp; Tricks</string>
+    <string name="tool_maps">Maps</string>
+    <string name="tool_diamond">Diamond tips</string>
+    <string name="tool_calculator">Calculator</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="explore_today">What do you want to <b>explore</b>?</string>
+    <string name="tools_guides">Tools &amp; guides</string>
+    <string name="tool_tips_sub">Pro guides for every match</string>
+    <string name="tool_maps_sub">Drop spots &amp; routes</string>
+    <string name="tool_diamond_sub">Ways to earn diamonds</string>
+    <string name="tool_calculator_sub">Diamond value calculator</string>
+    <!-- Content screens -->
+    <string name="download">Download</string>
+    <string name="download_done">Saved to Pictures/SkinEmotes</string>
+    <string name="download_failed">Download failed</string>
+    <string name="stat_age">Age</string>
+    <string name="stat_birthday">Birthday</string>
+    <string name="stat_occupation">Occupation</string>
+    <string name="stat_hobby">Hobby</string>
+    <string name="stat_accuracy">Accuracy</string>
+    <string name="stat_damage">Damage</string>
+    <string name="stat_fire_rate">Fire rate</string>
+    <string name="stat_range">Range</string>
+    <string name="stat_magazine">Magazine</string>
+    <string name="stat_movement">Movement</string>
+    <string name="stat_ability">Ability</string>
+    <string name="stat_hp">HP</string>
+    <string name="stat_acceleration">Acceleration</string>
+    <string name="stat_control">Control</string>
+    <string name="stat_speed">Speed</string>
+    <string name="tip_number">Tip %1$d</string>
+    <string name="calc_dollars">Diamonds to dollars</string>
+    <string name="calc_elite_pass">Elite Pass to diamonds</string>
+    <string name="calc_diamonds">Dollars to diamonds</string>
+    <string name="calc_daily">Daily diamonds</string>
+    <string name="calc_input_diamonds">Enter diamonds</string>
+    <string name="calc_input_passes">Enter Elite Passes</string>
+    <string name="calc_input_dollars">Enter dollars</string>
+    <string name="calc_input_days">Enter days</string>
+    <string name="calc_calculate">Calculate now</string>
+    <string name="calc_result">Result</string>
+    <string name="calc_diamonds_result">%1$d diamonds</string>
+    <string name="calc_error_empty">Please enter an amount</string>
+    <string name="calc_error_invalid">Invalid amount</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="share_app">Share app</string>
+    <string name="share_app_sub">Tell your friends about Skin Tool</string>
+    <string name="share_message">Check out %1$s: %2$s</string>
+    <string name="rate_app">Rate us</string>
+    <string name="rate_app_sub">Enjoying the app? Leave a review</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="privacy_options">Ad privacy options</string>
+    <string name="terms">Terms &amp; conditions</string>
+    <string name="link_unavailable">Link not available yet</string>
+    <!-- Set these to the published policy pages; an empty value shows "Link not available yet". -->
+    <string name="privacy_policy_url" translatable="false"></string>
+    <string name="terms_url" translatable="false"></string>
+    <string name="apply">Apply</string>
+    <!-- Onboarding step names -->
+    <string name="step_lang">Language</string>
+    <string name="step_gender">Gender</string>
+    <string name="step_age">Age</string>
+    <string name="step_style">Fighter style</string>
+    <string name="step_fav">Fav content</string>
+    <string name="step_mode">Game mode</string>
+    <string name="step_weapon">Weapon</string>
+    <string name="step_goal">Goal</string>
+    <string name="step_char">Character</string>
+    <string name="step_tips">Tip type</string>
+    <string name="step_room">Custom rooms</string>
+    <string name="step_map">Map</string>
+    <string name="step_daily">Daily tips</string>
+    <!-- Onboarding: set as default home (launcher) -->
+    <string name="dh_title">Set as your <b>home screen</b></string>
+    <string name="dh_sub">Your skins, bundles and emotes are one swipe away.</string>
+    <string name="dh_c1">Choose Skin Tool</string>
+    <string name="dh_c2">Tap Always</string>
+    <string name="dh_c3">Added to home</string>
+    <string name="dh_button">Make it my home screen</string>
+    <string name="dh_settings_title">Default home app</string>
+    <string name="dh_launcher">Launcher</string>
+    <string name="dh_hint">HINT</string>
+    <string name="dh_hint_tap">Tap %1$s</string>
+    <string name="dh_toast">Press Home to open it</string>
+    <string name="dh_search">Search</string>
+    <string name="dh_sheet_title">Select a home app</string>
+    <string name="dh_system_launcher">System launcher</string>
+    <string name="dh_just_once">Just once</string>
+    <string name="dh_always">Always</string>
+    <string name="dh_demo_desc">Choose %1$s, tap Always, and it becomes your home screen</string>
+    <string name="step_default_home">Home screen</string>
+    <string name="sheet_title">Almost done!</string>
+    <string name="sheet_body">Finish setup to see your skins, bundles and emotes picked for you.</string>
+    <!-- Uninstall flow -->
+    <string name="un_sorry_title">Sorry to see you go</string>
+    <string name="un_keep">Keep the app</string>
+    <string name="un_still">I still want to uninstall</string>
+    <string name="un_reason_title">Why are you leaving?</string>
+    <string name="un_r_broken">Something isn\'t working</string>
+    <string name="un_r_ads">Too many ads</string>
+    <string name="un_r_content">Can\'t find the skins I want</string>
+    <string name="un_r_hard">Hard to use</string>
+    <string name="un_r_not_needed">I don\'t need it anymore</string>
+    <string name="un_uninstall_anyway">Uninstall anyway</string>
+    <string name="un_progress">Preparing to uninstall %1$s…</string>
+    <string name="un_confirm_title">Before you go</string>
+    <string name="un_uninstall">Uninstall</string>
+    <string name="un_dialog_message">Do you want to uninstall this app?</string>
+    <string name="un_language_title">Choose Language</string>
+    <string name="perm_title">Allow access</string>
+    <string name="perm_allow">Allow</string>
+    <string name="set_default_home">Set as default home</string>
+    <!-- Support address for Settings → Feedback; empty shows "link unavailable". -->
+    <string name="feedback_email" translatable="false"></string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_sub">Tell us what to improve</string>
+    <string name="update_app">Update app</string>
+    <string name="update_app_sub">Get the newest version</string>
+    <string name="settings_profile">Profile</string>
+    <!-- Onboarding: welcome and permissions screens -->
+    <string name="wl_title">Welcome to <b>Skin Tool</b></string>
+    <string name="wl_sub">Everything you picked, ready on your home screen.</string>
+    <string name="wl_c1">Characters, bundles and pets</string>
+    <string name="wl_c2">Weapons, vehicles and emotes</string>
+    <string name="wl_c3">Maps, tips and diamond guides</string>
+    <string name="wl_button">Let\'s go</string>
+    <string name="step_welcome">Welcome</string>
+    <string name="ph_title">Allow <b>access</b></string>
+    <string name="ph_sub">So the app can keep you up to date.</string>
+    <string name="ph_notif">Notifications</string>
+    <string name="ph_notif_sub">Daily tips and new skins</string>
+    <string name="step_permissions">Permissions</string>
+    <!-- Onboarding bottom sheet with voice guide -->
+    <string name="sh_title">Finish setup to start <b>exploring</b></string>
+    <string name="sh_mood_start">Good start</string>
+    <string name="sh_mood_half">Halfway there</string>
+    <string name="sh_mood_almost">Almost done</string>
+    <string name="sh_done">%1$d of %2$d done</string>
+    <string name="sh_up_next">UP NEXT · STEP %1$d OF %2$d</string>
+    <string name="sh_voice_guide">VOICE GUIDE</string>
+    <string name="sh_voice_text">Hear what this step does in 10 seconds.</string>
+    <string name="sh_voice_done">Message finished. Tap Continue setup when you’re ready.</string>
+    <string name="sh_play">Play voice guide</string>
+    <string name="sh_pause">Pause voice guide</string>
+    <string name="sh_replay">Replay voice guide</string>
+    <string name="sh_continue">Continue setup</string>
+    <string name="sh_home">Go to Home</string>
+    <string name="sh_saved">Progress is saved.</string>
+    <string name="sh_saved_text">Please complete all steps to use your new app.</string>
+    <string name="sh_mission">MISSION %1$s / %2$s</string>
+    <string name="sh_close">Close</string>
+    <plurals name="sh_to_go">
+        <item quantity="one">%d step to go</item>
+        <item quantity="other">%d steps to go</item>
+    </plurals>
+    <string name="sh_xp" translatable="false">%d XP</string>
+    <string name="un_title">Uninstall</string>
+    <string name="un_sorry_body">Most problems have a quick fix. Try one before you leave.</string>
+    <string name="un_fix_broken">Most glitches clear after a fresh start of the app.</string>
+    <string name="un_fix_broken_btn">Restart the app</string>
+    <string name="un_fix_ads">Ads keep the app free. You can review the app\'s options in Settings.</string>
+    <string name="un_fix_settings_btn">Open Settings</string>
+    <string name="un_fix_content">New skins, emotes and characters are added often. Browse the latest on the home screen.</string>
+    <string name="un_fix_content_btn">Browse skins</string>
+    <string name="un_fix_hard">Change the language and your profile anytime in Settings.</string>
+    <string name="un_fix_not_needed">Your favourites and choices are saved only on this phone. Uninstalling deletes them.</string>
+    <string name="un_progress_sub">This will only take a moment</string>
+    <string name="un_progress_done">Ready to uninstall</string>
+    <string name="un_confirm_body">Your favourites and choices are only on this phone. Uninstalling deletes them for good.</string>
+    <string name="un_progress_percent" translatable="false">%1$d%%</string>
+    <string name="net_title">No internet access</string>
+    <string name="net_body">Check your Wi-Fi or mobile data and try again.</string>
+    <string name="net_retry">Retry</string>
+    <string name="net_settings">Open settings</string>
+</resources>

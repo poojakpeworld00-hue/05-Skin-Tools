@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Setup sheet: dark surface with a 1dp Neon Rose top edge (design border-top). -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:topLeftRadius="@dimen/_23sdp" android:topRightRadius="@dimen/_23sdp" />
+            <solid android:color="#80FF3B5C" />
+        </shape>
+    </item>
+    <item android:top="1dp">
+        <shape>
+            <corners android:topLeftRadius="@dimen/_23sdp" android:topRightRadius="@dimen/_23sdp" />
+            <solid android:color="#101218" />
+        </shape>
+    </item>
+</layer-list>

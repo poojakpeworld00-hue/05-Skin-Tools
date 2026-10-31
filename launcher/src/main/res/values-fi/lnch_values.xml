@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">Analoginen kello</string>
+    <string name="launcher_app_info">Sovelluksen tiedot</string>
+    <string name="launcher_app_launcher_name">Käynnistin</string>
+    <string name="launcher_apps">Sovellukset</string>
+    <string name="launcher_clear">Tyhjennä</string>
+    <string name="launcher_digital_clock_widget">Digitaalinen kello</string>
+    <string name="launcher_greeting_afternoon">Hyvää iltapäivää</string>
+    <string name="launcher_greeting_evening">Hyvää iltaa</string>
+    <string name="launcher_greeting_morning">Hyvää huomenta</string>
+    <string name="launcher_hint_default_sms_description">Napauta \"Aseta oletukseksi\" viimeistelläksesi.</string>
+    <string name="launcher_hint_default_sms_title">Aseta tekstiviestisovellukseksesi</string>
+    <string name="launcher_hint_mock_toggle_row">Käyttöoikeus</string>
+    <string name="launcher_hint_overlay_description">Tuomme sinut suoraan takaisin, kun se on päällä.</string>
+    <string name="launcher_hint_overlay_row">Salli näyttäminen muiden sovellusten päällä</string>
+    <string name="launcher_hint_overlay_title">Ota käyttöön \"Näytä muiden sovellusten päällä\"</string>
+    <string name="launcher_lock_device_admin_warning">Pääkäyttäjäoikeuden poiskytkentä, estää kaksoisnapautuslukituksen toiminnan.</string>
+    <string name="launcher_pseudo_widget_clock">Kello</string>
+    <string name="launcher_pseudo_widget_search_bar">Hakupalkki</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">Kysy mitä vain…</string>
+    <string name="launcher_recent_apps">Viimeisimmät sovellukset</string>
+    <string name="launcher_search_apps_hint">Hae sovelluksia</string>
+    <string name="launcher_search_in_apps">Hae sovelluksista</string>
+    <string name="launcher_searched_apps">Haetut sovellukset</string>
+    <string name="launcher_see_less">Näytä vähemmän</string>
+    <string name="launcher_see_more">Näytä lisää</string>
+    <string name="launcher_suggested_apps">Ehdotetut sovellukset</string>
+    <string name="launcher_suggested_for_now">Ehdotettu nyt</string>
+    <string name="launcher_swipe_hint_tap">tai napauta mihin tahansa kokeillaksesi</string>
+    <string name="launcher_swipe_left_hint">Pyyhkäise vasemmalle hakua varten</string>
+    <string name="launcher_swipe_right_hint">Pyyhkäise oikealle avataksesi Messagesin</string>
+    <string name="launcher_swipe_up_hint">Pyyhkäise ylös nähdäksesi kaikki sovellukset</string>
+    <string name="launcher_touch_hold_widget">Paina vimpainta pitkään ja vedä se aloitusnäytöllesi</string>
+    <string name="launcher_uninstall">Poista asennus</string>
+    <string name="launcher_widget_too_big">Vimpain on liian suuri nykyiseen aloitusnäytön kokoon</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">שעון אנלוגי</string>
+    <string name="launcher_app_info">פרטי היישומון</string>
+    <string name="launcher_app_launcher_name">משגר</string>
+    <string name="launcher_apps">אפליקציות</string>
+    <string name="launcher_clear">נקה</string>
+    <string name="launcher_digital_clock_widget">שעון דיגיטלי</string>
+    <string name="launcher_greeting_afternoon">צהריים טובים</string>
+    <string name="launcher_greeting_evening">ערב טוב</string>
+    <string name="launcher_greeting_morning">בוקר טוב</string>
+    <string name="launcher_hint_default_sms_description">הקש \"הגדר כברירת מחדל\" כדי לסיים.</string>
+    <string name="launcher_hint_default_sms_title">הגדר כאפליקציית ה-SMS שלך</string>
+    <string name="launcher_hint_mock_toggle_row">הרשאה</string>
+    <string name="launcher_hint_overlay_description">נחזיר אותך לכאן ברגע שזה יופעל.</string>
+    <string name="launcher_hint_overlay_row">אפשר הצגה מעל אפליקציות אחרות</string>
+    <string name="launcher_hint_overlay_title">הפעל \"הצגה מעל אפליקציות אחרות\"</string>
+    <string name="launcher_lock_device_admin_warning">ביטול הרשאת מנהל ישבית את אפשרות ההקשה הכפולה לנעילת מסך.</string>
+    <string name="launcher_pseudo_widget_clock">שעון</string>
+    <string name="launcher_pseudo_widget_search_bar">שורת חיפוש</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">שאל כל דבר…</string>
+    <string name="launcher_recent_apps">אפליקציות אחרונות</string>
+    <string name="launcher_search_apps_hint">חפש אפליקציות</string>
+    <string name="launcher_search_in_apps">חפש באפליקציות</string>
+    <string name="launcher_searched_apps">אפליקציות שחיפשת</string>
+    <string name="launcher_see_less">הצג פחות</string>
+    <string name="launcher_see_more">הצג עוד</string>
+    <string name="launcher_suggested_apps">אפליקציות מוצעות</string>
+    <string name="launcher_suggested_for_now">מוצע כרגע</string>
+    <string name="launcher_swipe_hint_tap">או הקש בכל מקום כדי לנסות</string>
+    <string name="launcher_swipe_left_hint">החלק שמאלה לחיפוש</string>
+    <string name="launcher_swipe_right_hint">החלק ימינה להודעות</string>
+    <string name="launcher_swipe_up_hint">החלק למעלה לכל האפליקציות</string>
+    <string name="launcher_touch_hold_widget">לחיצה ארוכה על הווידג\'ט וגרירה שלו במסך הראשי</string>
+    <string name="launcher_uninstall">הסרה</string>
+    <string name="launcher_widget_too_big">הווידג\'ט גדול מדי לגודל מסך הבית הנוכחי</string>
+</resources>

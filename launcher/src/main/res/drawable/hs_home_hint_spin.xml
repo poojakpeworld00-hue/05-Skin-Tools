@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="104dp"
+    android:height="104dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path android:pathData="M0,0h100v100h-100z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="50"
+                android:centerY="50"
+                android:type="sweep">
+                <item android:offset="0" android:color="@color/lnch_home_hint_accent_clear" />
+                <item android:offset="0.62" android:color="@color/lnch_home_hint_accent_clear" />
+                <item android:offset="0.8" android:color="@color/lnch_home_hint_accent_line" />
+                <item android:offset="1" android:color="@color/lnch_home_hint_accent" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

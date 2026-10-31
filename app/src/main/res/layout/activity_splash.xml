@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sh_splash">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="no"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash_bg" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_splash_fade" />
+
+    <View
+        android:id="@+id/glow"
+        android:layout_width="@dimen/_350sdp"
+        android:layout_height="@dimen/_240sdp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="@dimen/_minus60sdp"
+        android:layout_marginEnd="@dimen/_minus50sdp"
+        android:background="@drawable/bg_corner_glow" />
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_67sdp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/logo"
+                android:layout_width="@dimen/_87sdp"
+                android:layout_height="@dimen/_87sdp">
+
+                <View
+                    android:id="@+id/ring1"
+                    android:alpha="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_logo_ring" />
+
+                <View
+                    android:id="@+id/ring2"
+                    android:alpha="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_logo_ring" />
+
+                <FrameLayout
+                    android:id="@+id/tile"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_logo_tile"
+                    android:elevation="@dimen/_12sdp"
+                    android:outlineSpotShadowColor="@color/sh_primary">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:importantForAccessibility="no"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/ic_launcher" />
+
+                    <View
+                        android:id="@+id/tileShine"
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_shine"
+                        android:rotation="20"
+                        android:scaleY="1.6" />
+                </FrameLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/brand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_22sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sora_extrabold"
+                    android:letterSpacing="-0.03"
+                    android:text="@string/brand_skin"
+                    android:textColor="@color/sh_text"
+                    android:textSize="@dimen/_27ssp"
+                    app:fontFamily="@font/sora_extrabold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_6sdp"
+                    android:fontFamily="@font/sora_extrabold"
+                    android:letterSpacing="-0.03"
+                    android:text="@string/brand_emotes"
+                    android:textColor="@color/sh_primary"
+                    android:textSize="@dimen/_27ssp"
+                    app:fontFamily="@font/sora_extrabold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/motto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:letterSpacing="0.22"
+                android:text="@string/splash_motto"
+                android:textColor="@color/sh_muted"
+                android:textSize="@dimen/_9ssp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progress"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="@dimen/_53sdp"
+            android:max="100"
+            app:indicatorColor="@color/sh_primary"
+            app:indicatorTrackGapSize="0dp"
+            app:trackColor="#1FFFFFFF"
+            app:trackCornerRadius="2dp"
+            app:trackStopIndicatorSize="0dp"
+            app:trackThickness="4dp" />
+    </FrameLayout>
+</FrameLayout>

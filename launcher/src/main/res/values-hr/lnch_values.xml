@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">Analogni sat</string>
+    <string name="launcher_app_info">Informacije o aplikaciji</string>
+    <string name="launcher_app_launcher_name">Pokretač</string>
+    <string name="launcher_apps">Aplikacije</string>
+    <string name="launcher_clear">Očisti</string>
+    <string name="launcher_digital_clock_widget">Digitalni sat</string>
+    <string name="launcher_greeting_afternoon">Dobar dan</string>
+    <string name="launcher_greeting_evening">Dobra večer</string>
+    <string name="launcher_greeting_morning">Dobro jutro</string>
+    <string name="launcher_hint_default_sms_description">Dodirni \"Postavi kao zadano\" za dovršetak.</string>
+    <string name="launcher_hint_default_sms_title">Postavi kao svoju SMS aplikaciju</string>
+    <string name="launcher_hint_mock_toggle_row">Dopuštenje</string>
+    <string name="launcher_hint_overlay_description">Vratit ćemo te odmah natrag čim se uključi.</string>
+    <string name="launcher_hint_overlay_row">Dopusti prikaz preko drugih aplikacija</string>
+    <string name="launcher_hint_overlay_title">Uključi \"Prikaz preko drugih aplikacija\"</string>
+    <string name="launcher_lock_device_admin_warning">Uklanjanje administratorske dozvole će deaktivirati funkciju dvostrukog dodira za zaključavanje ekrana.</string>
+    <string name="launcher_pseudo_widget_clock">Sat</string>
+    <string name="launcher_pseudo_widget_search_bar">Traka za pretragu</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">Pitaj bilo što…</string>
+    <string name="launcher_recent_apps">Nedavne aplikacije</string>
+    <string name="launcher_search_apps_hint">Pretraži aplikacije</string>
+    <string name="launcher_search_in_apps">Pretraži u aplikacijama</string>
+    <string name="launcher_searched_apps">Pretražene aplikacije</string>
+    <string name="launcher_see_less">Prikaži manje</string>
+    <string name="launcher_see_more">Prikaži više</string>
+    <string name="launcher_suggested_apps">Predložene aplikacije</string>
+    <string name="launcher_suggested_for_now">Predloženo za sada</string>
+    <string name="launcher_swipe_hint_tap">ili dodirni bilo gdje za isprobavanje</string>
+    <string name="launcher_swipe_left_hint">Povuci lijevo za pretragu</string>
+    <string name="launcher_swipe_right_hint">Povuci desno za Poruke</string>
+    <string name="launcher_swipe_up_hint">Povuci prema gore za sve aplikacije</string>
+    <string name="launcher_touch_hold_widget">Pritisni widget i povuci ga na početni ekran</string>
+    <string name="launcher_uninstall">Deinstaliraj</string>
+    <string name="launcher_widget_too_big">Widget je prevelik za trenutnu veličinu početnog ekrana</string>
+</resources>

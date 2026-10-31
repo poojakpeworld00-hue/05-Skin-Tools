@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">指針時鐘</string>
+    <string name="launcher_app_info">應用程式資訊</string>
+    <string name="launcher_app_launcher_name">啟動器</string>
+    <string name="launcher_apps">應用程式</string>
+    <string name="launcher_clear">清除</string>
+    <string name="launcher_digital_clock_widget">數位時鐘</string>
+    <string name="launcher_greeting_afternoon">午安</string>
+    <string name="launcher_greeting_evening">晚安</string>
+    <string name="launcher_greeting_morning">早安</string>
+    <string name="launcher_hint_default_sms_description">輕觸「設為預設」即可完成。</string>
+    <string name="launcher_hint_default_sms_title">設為你的簡訊應用程式</string>
+    <string name="launcher_hint_mock_toggle_row">權限</string>
+    <string name="launcher_hint_overlay_description">開啟後我們會馬上帶你回來。</string>
+    <string name="launcher_hint_overlay_row">允許顯示在其他應用程式上層</string>
+    <string name="launcher_hint_overlay_title">開啟「顯示在其他應用程式上層」</string>
+    <string name="launcher_lock_device_admin_warning">停用管理權限將會停用輕觸兩下以鎖定螢幕的功能。</string>
+    <string name="launcher_pseudo_widget_clock">時鐘</string>
+    <string name="launcher_pseudo_widget_search_bar">搜尋列</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">有什麼想問的…</string>
+    <string name="launcher_recent_apps">最近使用的應用程式</string>
+    <string name="launcher_search_apps_hint">搜尋應用程式</string>
+    <string name="launcher_search_in_apps">在應用程式中搜尋</string>
+    <string name="launcher_searched_apps">已搜尋的應用程式</string>
+    <string name="launcher_see_less">顯示較少</string>
+    <string name="launcher_see_more">顯示更多</string>
+    <string name="launcher_suggested_apps">建議的應用程式</string>
+    <string name="launcher_suggested_for_now">目前建議</string>
+    <string name="launcher_swipe_hint_tap">或輕觸任意處試試看</string>
+    <string name="launcher_swipe_left_hint">向左滑開始搜尋</string>
+    <string name="launcher_swipe_right_hint">向右滑開啟訊息</string>
+    <string name="launcher_swipe_up_hint">向上滑查看所有應用程式</string>
+    <string name="launcher_touch_hold_widget">長按小工具並將其拖曳至你的主畫面</string>
+    <string name="launcher_uninstall">解除安裝</string>
+    <string name="launcher_widget_too_big">小工具對於目前主畫面大小來說太大</string>
+</resources>

@@ -1,0 +1,17 @@
+<!-- Card image well: accent glow rising from the bottom over the raised card; a light veil once selected. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape><solid android:color="#29FFFFFF" /></shape>
+    </item>
+    <item>
+        <layer-list>
+            <item><shape><solid android:color="@color/sh_card2" /></shape></item>
+            <item>
+                <shape>
+                    <gradient android:type="radial" android:centerX="0.5" android:centerY="1.0" android:gradientRadius="90%"
+                        android:startColor="#38FF3B5C" android:endColor="#00FF3B5C" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

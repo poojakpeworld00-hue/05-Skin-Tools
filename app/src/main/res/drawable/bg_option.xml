@@ -1,0 +1,16 @@
+<!-- Option row/card: card with a faint outline; solid accent once selected (design "solid accent fill on selection"). -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape>
+            <corners android:radius="@dimen/_12sdp" />
+            <solid android:color="@color/sh_primary" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="@dimen/_12sdp" />
+            <solid android:color="@color/sh_card" />
+            <stroke android:width="1.5dp" android:color="#14FFFFFF" />
+        </shape>
+    </item>
+</selector>

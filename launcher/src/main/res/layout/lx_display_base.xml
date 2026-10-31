@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/base_holderIx"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/state_scrimIx"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/hs_state_scrim" />
+
+    <include
+        android:id="@+id/main_show_gridIx"
+        layout="@layout/lx_home_show_grid" />
+
+    <include
+        android:id="@+id/all_apps_blockIx"
+        layout="@layout/lx_all_apps_zone"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/widgets_blockIx"
+        layout="@layout/lx_gadgets_zone"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/start_pageIx"
+        layout="@layout/lx_side_scr_zone"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/msgs_pageIx"
+        layout="@layout/lx_messages_scr_zone"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/swipe_hintIx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#be000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/swipe_hint_chevronsIx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/swipe_hint_chevron_1Ix"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:alpha="0.3"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_chevron_right_vector"
+                android:tint="@android:color/white" />
+
+            <ImageView
+                android:id="@+id/swipe_hint_chevron_2Ix"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:alpha="0.6"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_chevron_right_vector"
+                android:tint="@android:color/white" />
+
+            <ImageView
+                android:id="@+id/swipe_hint_chevron_3Ix"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_chevron_right_vector"
+                android:tint="@android:color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/swipe_hint_textIx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/launcher_swipe_right_hint"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:alpha="0.7"
+            android:gravity="center"
+            android:text="@string/launcher_swipe_hint_tap"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/main_show_dialog_opts_pinIx"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

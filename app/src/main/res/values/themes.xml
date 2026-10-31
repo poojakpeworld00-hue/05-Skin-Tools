@@ -1,0 +1,137 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Colors come from the dark-only @color/sh_* tokens. -->
+    <style name="Base.Theme.SkinHubSkinsBundles" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/sh_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/sh_accent</item>
+        <item name="colorSurface">@color/sh_card</item>
+        <item name="colorOnSurface">@color/sh_text</item>
+        <item name="colorSurfaceContainerLow">@color/sh_card</item>
+        <item name="colorOnSurfaceVariant">@color/sh_muted</item>
+        <item name="colorOutline">@color/sh_border</item>
+        <item name="android:colorBackground">@color/sh_bg</item>
+        <item name="android:windowBackground">@color/sh_bg</item>
+        <!-- Dark app: light status / navigation bar icons whatever the phone's own theme. -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+        <item name="android:textColorPrimary">@color/sh_text</item>
+        <item name="android:textColorSecondary">@color/sh_muted</item>
+        <!-- App-wide font: TextViews (android:fontFamily) and Material components (fontFamily). -->
+        <item name="android:fontFamily">@font/sora</item>
+        <item name="fontFamily">@font/sora</item>
+    </style>
+
+    <style name="Theme.SkinHubSkinsBundles" parent="Base.Theme.SkinHubSkinsBundles" />
+
+    <style name="Theme.SkinHubSkinsBundles.Splash">
+        <item name="android:windowBackground">@color/sh_splash</item>
+    </style>
+
+    <style name="Theme.SkinHubSkinsBundles.Translucent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="SH" />
+
+    <style name="SH.Title">
+        <item name="android:fontFamily">@font/sora_extrabold</item>
+        <!-- AppCompat's fontFamily wins over android:fontFamily, so both are needed to override the theme font. -->
+        <item name="fontFamily">@font/sora_extrabold</item>
+        <item name="android:textSize">@dimen/_17ssp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/sh_text</item>
+    </style>
+
+    <style name="SH.Sub">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/sh_muted</item>
+        <item name="android:lineSpacingMultiplier">1.15</item>
+    </style>
+
+    <style name="SH.Pill">
+        <item name="android:minWidth">@dimen/_41sdp</item>
+        <item name="android:minHeight">@dimen/_26sdp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">@dimen/_10sdp</item>
+        <item name="android:paddingEnd">@dimen/_10sdp</item>
+        <item name="android:background">@drawable/bg_pill</item>
+        <item name="android:textColor">@color/sh_primary</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SH.Cta" parent="Widget.Material3.Button">
+        <item name="android:fontFamily">@font/sora_extrabold</item>
+        <!-- AppCompat's fontFamily wins over android:fontFamily, so both are needed to override the theme font. -->
+        <item name="fontFamily">@font/sora_extrabold</item>
+        <item name="android:layout_height">@dimen/_37sdp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">@dimen/_10sdp</item>
+        <item name="backgroundTint">@color/sh_primary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SH.Section">
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/sh_text</item>
+    </style>
+
+    <style name="SH.Shape12" parent="">
+        <item name="cornerSize">@dimen/_9sdp</item>
+    </style>
+
+    <style name="SH.Shape17" parent="">
+        <item name="cornerSize">@dimen/_12sdp</item>
+    </style>
+
+    <style name="SH.Shape22" parent="">
+        <item name="cornerSize">@dimen/_16sdp</item>
+    </style>
+
+    <style name="SH.Bento" parent="Widget.Material3.CardView.Filled">
+        <item name="cardCornerRadius">@dimen/_13sdp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">#14FFFFFF</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="SH.BentoTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SH.BentoSub">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:textColor">#C9CDD4</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <!-- Big faint letter in the corner of an option (design watermark glyph). -->
+    <style name="SH.Watermark">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/sora_extrabold</item>
+        <item name="fontFamily">@font/sora_extrabold</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/watermark_on_option</item>
+        <item name="android:importantForAccessibility">no</item>
+    </style>
+
+    <style name="SH.ShapeRound" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

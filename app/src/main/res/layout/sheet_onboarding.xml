@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- "Finish setup" sheet, Claude Design "Skin Hub Setup Dialog": mission hero, segmented progress, coach voice card, CTA. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_setup_sheet"
+    android:clipChildren="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Hero -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bg_setup_hero"
+            android:clipChildren="true">
+
+            <View
+                android:id="@+id/sheetGlow"
+                android:layout_width="@dimen/_190sdp"
+                android:layout_height="@dimen/_190sdp"
+                android:layout_gravity="end"
+                android:layout_marginTop="-70dp"
+                android:layout_marginEnd="-50dp"
+                android:background="@drawable/bg_corner_glow"
+                android:importantForAccessibility="no" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="@dimen/_18sdp"
+                android:paddingTop="@dimen/_32sdp"
+                android:paddingBottom="@dimen/_14sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <FrameLayout
+                        android:layout_width="@dimen/_56sdp"
+                        android:layout_height="@dimen/_56sdp">
+
+                        <View
+                            android:id="@+id/sheetRing"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bg_setup_ring"
+                            android:importantForAccessibility="no" />
+
+                        <TextView
+                            android:id="@+id/sheetBadge"
+                            android:layout_width="@dimen/_48sdp"
+                            android:layout_height="@dimen/_48sdp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/bg_setup_badge"
+                            android:elevation="6dp"
+                            android:fontFamily="@font/sora_extrabold"
+                            android:gravity="center"
+                            android:importantForAccessibility="no"
+                            android:outlineAmbientShadowColor="@color/sh_primary"
+                            android:outlineSpotShadowColor="@color/sh_primary"
+                            android:textColor="@color/sh_primary"
+                            android:textSize="@dimen/_17ssp"
+                            tools:text="04" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_12sdp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/sheetEyebrow"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sora_extrabold"
+                            android:letterSpacing="0.14"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/sh_primary"
+                            android:textSize="@dimen/_9ssp"
+                            tools:text="MISSION 04 / 13" />
+
+                        <TextView
+                            android:id="@+id/sheetNext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:fontFamily="@font/sora_extrabold"
+                            android:letterSpacing="-0.02"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/sh_text"
+                            android:textSize="@dimen/_15ssp"
+                            tools:text="Play style" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sheetSegments"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_7sdp"
+                    android:layout_marginTop="@dimen/_18sdp"
+                    android:importantForAccessibility="yes"
+                    android:orientation="horizontal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/sheetDone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sora_bold"
+                        android:textAlignment="viewStart"
+                        android:textColor="#C9CDD4"
+                        android:textSize="@dimen/_10ssp"
+                        tools:text="3 of 13 done" />
+
+                    <TextView
+                        android:id="@+id/sheetXp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="@dimen/_3sdp"
+                        android:fontFamily="@font/sora_bold"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/sh_primary"
+                        android:textSize="@dimen/_10ssp"
+                        app:drawableStartCompat="@drawable/ic_bolt"
+                        app:drawableTint="@color/sh_primary"
+                        tools:text="300 XP" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Body -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/_18sdp"
+            android:paddingTop="@dimen/_16sdp"
+            android:paddingBottom="@dimen/_16sdp">
+
+            <TextView
+                android:id="@+id/sheetTitle"
+                style="@style/SH.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:letterSpacing="-0.02"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/_17ssp" />
+
+            <TextView
+                android:id="@+id/sheetMood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/sh_muted"
+                android:textSize="@dimen/_10ssp"
+                tools:text="Good start · 10 steps to go" />
+
+            <LinearLayout
+                android:id="@+id/voiceCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_13sdp"
+                android:background="@drawable/bg_setup_voice"
+                android:clipChildren="false"
+                android:orientation="vertical"
+                android:paddingHorizontal="@dimen/_11sdp"
+                android:paddingVertical="@dimen/_10sdp"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipChildren="false"
+                    android:gravity="center_vertical">
+
+                    <FrameLayout
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:clipChildren="false">
+
+                        <View
+                            android:id="@+id/voiceRipple"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:alpha="0"
+                            android:background="@drawable/bg_logo_ring"
+                            android:importantForAccessibility="no" />
+
+                        <ImageButton
+                            android:id="@+id/voicePlay"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bg_voice_play"
+                            android:elevation="6dp"
+                            android:outlineAmbientShadowColor="@color/sh_primary"
+                            android:outlineSpotShadowColor="@color/sh_primary"
+                            android:padding="@dimen/_10sdp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/ic_play" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/sora_extrabold"
+                                android:letterSpacing="0.1"
+                                android:text="@string/sh_voice_guide"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/sh_primary"
+                                android:textSize="@dimen/_9ssp" />
+
+                            <TextView
+                                android:id="@+id/voiceTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/sora_bold"
+                                android:fontFeatureSettings="tnum"
+                                android:textColor="#C9CDD4"
+                                android:textSize="@dimen/_10ssp"
+                                tools:text="0:12" />
+                        </LinearLayout>
+
+                        <com.fffemotes.skintools.master.presentation.onboarding.WaveformView
+                            android:id="@+id/voiceWave"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:importantForAccessibility="no" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/voiceText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:lineSpacingMultiplier="1.15"
+                    android:text="@string/sh_voice_text"
+                    android:textAlignment="viewStart"
+                    android:textColor="#C9CDD4"
+                    android:textSize="@dimen/_10ssp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/sheetCta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_14sdp"
+                android:background="@drawable/bg_cta_clip">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/sheetContinue"
+                    style="@style/SH.Cta"
+                    android:layout_width="match_parent"
+                    android:text="@string/sh_continue"
+                    app:icon="@drawable/ic_arrow_forward"
+                    app:iconGravity="textEnd"
+                    app:iconPadding="@dimen/_6sdp"
+                    app:iconSize="@dimen/_16sdp" />
+
+                <View
+                    android:id="@+id/sheetShine"
+                    android:layout_width="@dimen/_23sdp"
+                    android:layout_height="@dimen/_37sdp"
+                    android:background="@drawable/bg_shine"
+                    android:importantForAccessibility="no"
+                    android:rotation="15"
+                    android:scaleY="1.6"
+                    android:translationZ="8dp" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/sheetClose"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingHorizontal="@dimen/_12sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="@dimen/_6sdp"
+                android:fontFamily="@font/sora_bold"
+                android:gravity="center"
+                android:minHeight="@dimen/_37sdp"
+                android:text="@string/sh_home"
+                android:textColor="#C9CDD4"
+                android:textSize="@dimen/_12ssp"
+                app:drawableStartCompat="@drawable/ic_home"
+                app:drawableTint="#C9CDD4" />
+
+            <TextView
+                android:id="@+id/sheetSaved"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.15"
+                android:paddingHorizontal="@dimen/_6sdp"
+                android:textColor="@color/sh_muted"
+                android:textSize="@dimen/_9ssp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/_28sdp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@drawable/bg_sheet_handle"
+        android:importantForAccessibility="no" />
+
+    <FrameLayout
+        android:id="@+id/sheetX"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/_4sdp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/sh_close">
+
+        <ImageView
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_close_chip"
+            android:importantForAccessibility="no"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/ic_close"
+            app:tint="#C9CDD4" />
+    </FrameLayout>
+</FrameLayout>

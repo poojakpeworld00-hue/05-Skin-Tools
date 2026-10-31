@@ -1,0 +1,118 @@
+package com.fffemotes.skintools.launcher.exts
+
+import android.graphics.Color
+import android.graphics.drawable.LayerDrawable
+import android.util.TypedValue
+import android.view.RoundedCorner.POSITION_TOP_LEFT
+import android.view.RoundedCorner.POSITION_TOP_RIGHT
+import android.view.View
+import android.view.animation.AccelerateDecelerateInterpolator
+import androidx.core.content.ContextCompat
+import androidx.core.content.res.ResourcesCompat
+import androidx.core.graphics.drawable.toDrawable
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.updatePadding
+import org.fossify.commons.R
+import org.fossify.commons.extensions.applyColorFilter
+import org.fossify.commons.extensions.getProperBackgroundColor
+import org.fossify.commons.helpers.isSPlus
+import org.fossify.commons.views.MySearchMenu
+
+fun View.tweenSize(
+    from: Float,
+    to: Float,
+    duration: Long,
+) = animate()
+    .scaleX(to)
+    .scaleY(to)
+    .setDuration(duration)
+    .setInterpolator(AccelerateDecelerateInterpolator())
+    .withStartAction {
+        scaleX = from
+        scaleY = from
+    }
+
+fun View.prepRackBackdrop(
+    backgroundColor: Int = context.getProperBackgroundColor(),
+) {
+    background = backgroundColor.toDrawable()
+
+    val insets = rootWindowInsets
+    if (isSPlus() && insets != null) {
+        val topRightCorner = insets.getRoundedCorner(POSITION_TOP_RIGHT)?.radius ?: 0
+        val topLeftCorner = insets.getRoundedCorner(POSITION_TOP_LEFT)?.radius ?: 0
+        if (topRightCorner > 0 && topLeftCorner > 0) {
+            background = ResourcesCompat.getDrawable(
+                context.resources, R.drawable.bottom_sheet_bg, context.theme
+            ).apply {
+                (this as LayerDrawable)
+                    .findDrawableByLayerId(R.id.bottom_sheet_background)
+                    .applyColorFilter(backgroundColor)
+            }
+        }
+    }
+}
+
+fun MySearchMenu.putRackSkin() {
+    val res = com.fffemotes.skintools.launcher.R.drawable.hs_shelf_query_back
+    val dp = resources.displayMetrics.density
+    setBackgroundColor(Color.TRANSPARENT)
+
+    val pillHeight = (46 * dp).toInt()
+    binding.searchBarContainer.apply {
+        val height = pillHeight + paddingTop + paddingBottom
+        if (layoutParams != null && layoutParams.height != height) layoutParams = layoutParams.apply { this.height = height }
+    }
+    binding.toolbarContainer.apply {
+        background = ContextCompat.getDrawable(context, res)
+        clipToOutline = true
+        elevation = 0f
+        val compact = context.launcherConfig.drawerSearchAtBottom &&
+            context.launcherConfig.launcherStyle != com.fffemotes.skintools.launcher.persona.LobbyPersonaApplier.STYLE_DEFAULT
+        val width = if (compact) {
+            (resources.displayMetrics.widthPixels * 0.62f).toInt().coerceAtLeast((240 * dp).toInt())
+        } else {
+            android.widget.FrameLayout.LayoutParams.MATCH_PARENT
+        }
+        (layoutParams as? android.widget.FrameLayout.LayoutParams)?.let { params ->
+            if (params.width != width || params.height != pillHeight || params.gravity != android.view.Gravity.CENTER) {
+                params.width = width
+                params.height = pillHeight
+                params.gravity = android.view.Gravity.CENTER
+                layoutParams = params
+            }
+        }
+    }
+    binding.topToolbarSearchIcon.apply {
+        applyColorFilter(context.getColor(com.fffemotes.skintools.launcher.R.color.launcher_drawer_search_hint))
+        scaleType = android.widget.ImageView.ScaleType.FIT_CENTER
+        val side = (16 * dp).toInt()
+        val vertical = ((pillHeight - 20 * dp) / 2).toInt()
+        if (paddingStart != side || paddingTop != vertical) setPaddingRelative(side, vertical, 0, vertical)
+        val width = side + (20 * dp).toInt()
+        if (layoutParams != null && layoutParams.width != width) layoutParams = layoutParams.apply { this.width = width }
+    }
+    binding.topToolbarSearch.apply {
+        setTextColor(Color.WHITE)
+        setHintTextColor(context.getColor(com.fffemotes.skintools.launcher.R.color.launcher_drawer_search_hint))
+        setTextSize(TypedValue.COMPLEX_UNIT_SP, 15f)
+        val gap = (10 * dp).toInt()
+        if (paddingStart != gap) setPaddingRelative(gap, paddingTop, (16 * dp).toInt(), paddingBottom)
+    }
+}
+
+fun View.padByOsBars() {
+    ViewCompat.setOnApplyWindowInsetsListener(this) { view, windowInsets ->
+        val insets = windowInsets.getInsets(
+            WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.displayCutout()
+        )
+        view.updatePadding(
+            left = insets.left,
+            top = insets.top,
+            right = insets.right,
+            bottom = insets.bottom
+        )
+        windowInsets
+    }
+}

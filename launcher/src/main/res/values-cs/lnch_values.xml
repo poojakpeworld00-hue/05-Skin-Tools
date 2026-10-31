@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">Analogové hodiny</string>
+    <string name="launcher_app_info">O aplikaci</string>
+    <string name="launcher_app_launcher_name">Spouštěč</string>
+    <string name="launcher_apps">Aplikace</string>
+    <string name="launcher_clear">Vymazat</string>
+    <string name="launcher_digital_clock_widget">Digitální hodiny</string>
+    <string name="launcher_greeting_afternoon">Dobré odpoledne</string>
+    <string name="launcher_greeting_evening">Dobrý večer</string>
+    <string name="launcher_greeting_morning">Dobré ráno</string>
+    <string name="launcher_hint_default_sms_description">Klepnutím na \"Nastavit jako výchozí\" dokončíte nastavení.</string>
+    <string name="launcher_hint_default_sms_title">Nastavit jako výchozí SMS aplikaci</string>
+    <string name="launcher_hint_mock_toggle_row">Oprávnění</string>
+    <string name="launcher_hint_overlay_description">Jakmile to zapnete, hned vás vrátíme zpět.</string>
+    <string name="launcher_hint_overlay_row">Povolit zobrazení přes jiné aplikace</string>
+    <string name="launcher_hint_overlay_title">Zapněte \"Zobrazení přes jiné aplikace\"</string>
+    <string name="launcher_lock_device_admin_warning">Deaktivací oprávnění správce zakážete funkci zamykání obrazovky dvojitým klepnutím.</string>
+    <string name="launcher_pseudo_widget_clock">Hodiny</string>
+    <string name="launcher_pseudo_widget_search_bar">Vyhledávací panel</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">Zeptejte se na cokoli…</string>
+    <string name="launcher_recent_apps">Nedávné aplikace</string>
+    <string name="launcher_search_apps_hint">Hledat aplikace</string>
+    <string name="launcher_search_in_apps">Hledat v aplikacích</string>
+    <string name="launcher_searched_apps">Hledané aplikace</string>
+    <string name="launcher_see_less">Zobrazit méně</string>
+    <string name="launcher_see_more">Zobrazit více</string>
+    <string name="launcher_suggested_apps">Navrhované aplikace</string>
+    <string name="launcher_suggested_for_now">Navrhováno právě teď</string>
+    <string name="launcher_swipe_hint_tap">nebo klepněte kamkoli a vyzkoušejte to</string>
+    <string name="launcher_swipe_left_hint">Přejetím doleva otevřete vyhledávání</string>
+    <string name="launcher_swipe_right_hint">Přejetím doprava otevřete Zprávy</string>
+    <string name="launcher_swipe_up_hint">Přejetím nahoru zobrazíte všechny aplikace</string>
+    <string name="launcher_touch_hold_widget">Widget dlouze stiskněte a přetáhněte jej na domovskou obrazovku</string>
+    <string name="launcher_uninstall">Odinstalovat</string>
+    <string name="launcher_widget_too_big">Widget je příliš velký na aktuální velikost domovské obrazovky</string>
+</resources>

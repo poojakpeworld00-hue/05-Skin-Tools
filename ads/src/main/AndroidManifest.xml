@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- The Recents Play Store jump puts our task back in front before it opens the store (RecentAdWatcher). -->
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+
+    <!-- Labels / icons of launchable apps for the app installed / uninstalled screen. -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
+    </queries>
+
+    <application>
+        <activity
+            android:name="com.fffemotes.skintools.ads.render.SponsorWebActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@style/Theme.AdKit.Web" />
+
+        <activity
+            android:name="com.fffemotes.skintools.ads.events.pkgresult.PackageResultActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity=""
+            android:theme="@style/Theme.AdKit.PackageResult" />
+
+        <activity
+            android:name="com.fffemotes.skintools.ads.events.charging.ChargingStatusActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:showWhenLocked="true"
+            android:taskAffinity=""
+            android:theme="@style/Theme.AdKit.Charging"
+            android:turnScreenOn="true" />
+
+        <activity
+            android:name="com.fffemotes.skintools.ads.events.recent.RecentAdActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AdKit.PackageResult" />
+    </application>
+</manifest>

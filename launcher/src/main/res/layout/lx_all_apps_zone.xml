@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fffemotes.skintools.launcher.panes.BoardPane xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/all_apps_holderIx"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <org.fossify.commons.views.MySearchMenu
+        android:id="@+id/query_barIx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/launcher_drawer_search_z"
+        app:applyWindowInsets="false" />
+
+    <com.fffemotes.skintools.launcher.ui.FadeAwayMatrixPane
+        android:id="@+id/all_apps_gridIx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/query_barIx"
+        android:layout_marginStart="@dimen/smaller_margin"
+        android:layout_marginEnd="@dimen/smaller_margin"
+        android:clipToPadding="false"
+        android:fadingEdgeLength="@dimen/launcher_drawer_fade"
+        android:overScrollMode="never"
+        android:requiresFadingEdge="vertical"
+        android:scrollbars="none"
+        app:layoutManager="org.fossify.commons.views.MyGridLayoutManager"
+        app:spanCount="@integer/launcher_portrait_column_count" />
+
+    <LinearLayout
+        android:id="@+id/all_apps_leaf_pipsIx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/small_margin"
+        android:paddingBottom="@dimen/medium_margin"
+        android:visibility="gone" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/all_apps_flipperIx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/all_apps_leaf_pipsIx"
+        android:layout_below="@+id/query_barIx"
+        android:layout_marginStart="@dimen/smaller_margin"
+        android:layout_marginEnd="@dimen/smaller_margin"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/query_pageIx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/query_barIx"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/normal_margin"
+        android:paddingTop="@dimen/activity_margin"
+        android:paddingEnd="@dimen/normal_margin"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/query_apps_cellIx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hs_query_tile_back"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/launcher_search_card_padding_top"
+            android:paddingBottom="@dimen/launcher_search_card_padding_bottom">
+
+            <org.fossify.commons.views.MyTextView
+                android:id="@+id/query_apps_titleIx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/activity_margin"
+                android:paddingEnd="@dimen/activity_margin"
+                android:paddingBottom="@dimen/launcher_search_card_title_gap"
+                android:text="@string/launcher_suggested_apps"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.01"
+                android:textColor="@color/launcher_search_card_title"
+                android:textSize="14sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/query_apps_gridIx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:overScrollMode="never"
+                android:paddingStart="@dimen/launcher_search_card_grid_padding"
+                android:paddingEnd="@dimen/launcher_search_card_grid_padding" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/query_hotlinks_cellIx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/normal_margin"
+            android:background="@drawable/hs_query_tile_back"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/launcher_search_card_padding_top"
+            android:paddingBottom="@dimen/medium_margin"
+            android:visibility="gone">
+
+            <org.fossify.commons.views.MyTextView
+                android:id="@+id/query_hotlinks_titleIx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/activity_margin"
+                android:paddingEnd="@dimen/activity_margin"
+                android:paddingBottom="@dimen/medium_margin"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.01"
+                android:textColor="@color/launcher_search_card_title"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/query_hotlinks_rollIx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <org.fossify.commons.views.MyTextView
+        android:id="@+id/no_results_stubIx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/query_barIx"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/bigger_margin"
+        android:alpha="0.8"
+        android:gravity="center"
+        android:paddingLeft="@dimen/activity_margin"
+        android:paddingRight="@dimen/activity_margin"
+        android:text="@string/no_items_found"
+        android:textSize="@dimen/bigger_text_size"
+        android:textStyle="italic"
+        android:visibility="gone" />
+
+</com.fffemotes.skintools.launcher.panes.BoardPane>

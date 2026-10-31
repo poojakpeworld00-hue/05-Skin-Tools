@@ -1,0 +1,4 @@
+<!-- Light sweep that slides across accent surfaces (design "shine" keyframes). -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#47FFFFFF" />
+</shape>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- One pill of the default_home step rail: fill sweep, icon circle and label (shown only while it is the current step). -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/railFill"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1FFF3B5C"
+        android:scaleX="0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:padding="3dp">
+
+        <ImageView
+            android:id="@+id/railIcon"
+            android:layout_width="@dimen/_27sdp"
+            android:layout_height="@dimen/_27sdp"
+            android:background="@drawable/bg_voice_play"
+            android:padding="@dimen/_6sdp" />
+
+        <TextView
+            android:id="@+id/railLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_7sdp"
+            android:fontFamily="@font/sora_bold"
+            android:maxLines="1"
+            android:textColor="@color/sh_text"
+            android:textSize="@dimen/_10ssp" />
+    </LinearLayout>
+</FrameLayout>

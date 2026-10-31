@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="lnch_hint_accent">#2F7BF6</color>
+    <color name="lnch_hint_card_bg">#F7202433</color>
+    <color name="lnch_hint_card_stroke">#1AFFFFFF</color>
+    <color name="lnch_hint_mock_app_bg">#FFFFFF</color>
+    <color name="lnch_hint_mock_app_shadow">#992F7BF6</color>
+    <color name="lnch_hint_mock_app_text">#1E2433</color>
+    <color name="lnch_hint_mock_list_bg">#4A4F66</color>
+    <color name="lnch_hint_mock_row_icon">#B9BDCB</color>
+    <color name="lnch_hint_mock_row_ring">#D6D8E0</color>
+    <color name="lnch_hint_mock_row_text">#F2F2F5</color>
+    <color name="lnch_hint_switch_off">#5EFFFFFF</color>
+    <color name="lnch_hint_text_primary">#FFFFFF</color>
+    <color name="lnch_hint_text_secondary">#B3FFFFFF</color>
+    <color name="launcher_inbox_panel_bg">@color/lnch_backgroundDark</color>
+    <color name="lnch_tray_bg">#2B2C30</color>
+    <color name="lnch_tray_divider">#24FFFFFF</color>
+    <color name="lnch_tray_press">#1AFFFFFF</color>
+    <color name="lnch_tray_text">#F2F2F4</color>
+    <color name="lnch_tray_text_secondary">#B4B7BD</color>
+</resources>

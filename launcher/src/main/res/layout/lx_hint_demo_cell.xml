@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder row of the mock "Default home app" list in the default-home hint sheet. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:alpha="0.7"
+    android:gravity="center_vertical"
+    android:importantForAccessibility="noHideDescendants"
+    android:orientation="horizontal"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp">
+
+    <View
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:background="@drawable/hs_home_hint_radio_off" />
+
+    <View
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/hs_home_hint_skeleton_icon" />
+
+    <!-- shortcut: weights approximate the design's 46%-of-row bar width (within ~3dp on phones); switch to a percent constraint if it must be exact. -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="9dp"
+        android:layout_marginStart="12dp"
+        android:layout_weight="0.6"
+        android:background="@drawable/hs_home_hint_skeleton_bar" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.4" />
+
+</LinearLayout>

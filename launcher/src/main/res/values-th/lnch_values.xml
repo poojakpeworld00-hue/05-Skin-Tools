@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">นาฬิกาอนาล็อก</string>
+    <string name="launcher_app_info">ข้อมูลแอป</string>
+    <string name="launcher_app_launcher_name">Messages</string>
+    <string name="launcher_apps">แอป</string>
+    <string name="launcher_clear">ล้าง</string>
+    <string name="launcher_digital_clock_widget">นาฬิกาดิจิทัล</string>
+    <string name="launcher_greeting_afternoon">สวัสดีตอนบ่าย</string>
+    <string name="launcher_greeting_evening">สวัสดีตอนเย็น</string>
+    <string name="launcher_greeting_morning">สวัสดีตอนเช้า</string>
+    <string name="launcher_hint_default_sms_description">แตะ \"ตั้งเป็นค่าเริ่มต้น\" เพื่อเสร็จสิ้น</string>
+    <string name="launcher_hint_default_sms_title">ตั้งเป็นแอป SMS ของคุณ</string>
+    <string name="launcher_hint_mock_toggle_row">สิทธิ์การเข้าถึง</string>
+    <string name="launcher_hint_overlay_description">เราจะพาคุณกลับมาทันทีที่เปิดใช้งานเสร็จ</string>
+    <string name="launcher_hint_overlay_row">อนุญาตให้แสดงทับแอปอื่น</string>
+    <string name="launcher_hint_overlay_title">เปิด \"แสดงทับแอปอื่น\"</string>
+    <string name="launcher_lock_device_admin_warning">การปิดใช้งานสิทธิ์ผู้ดูแลระบบจะปิดฟีเจอร์แตะสองครั้งเพื่อล็อกหน้าจอ</string>
+    <string name="launcher_pseudo_widget_clock">นาฬิกา</string>
+    <string name="launcher_pseudo_widget_search_bar">แถบค้นหา</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">ถามอะไรก็ได้…</string>
+    <string name="launcher_recent_apps">แอปล่าสุด</string>
+    <string name="launcher_search_apps_hint">ค้นหาแอป</string>
+    <string name="launcher_search_in_apps">ค้นหาในแอป</string>
+    <string name="launcher_searched_apps">แอปที่ค้นหา</string>
+    <string name="launcher_see_less">ดูน้อยลง</string>
+    <string name="launcher_see_more">ดูเพิ่มเติม</string>
+    <string name="launcher_suggested_apps">แอปที่แนะนำ</string>
+    <string name="launcher_suggested_for_now">แนะนำสำหรับตอนนี้</string>
+    <string name="launcher_swipe_hint_tap">หรือแตะที่ใดก็ได้เพื่อลอง</string>
+    <string name="launcher_swipe_left_hint">ปัดซ้ายเพื่อค้นหา</string>
+    <string name="launcher_swipe_right_hint">ปัดขวาเพื่อไปที่ Messages</string>
+    <string name="launcher_swipe_up_hint">ปัดขึ้นเพื่อดูแอปทั้งหมด</string>
+    <string name="launcher_touch_hold_widget">กดค้างที่วิดเจ็ตแล้วลากไปวางบนหน้าจอหลักของคุณ</string>
+    <string name="launcher_uninstall">ถอนการติดตั้ง</string>
+    <string name="launcher_widget_too_big">วิดเจ็ตใหญ่เกินไปสำหรับขนาดหน้าจอหลักปัจจุบัน</string>
+</resources>

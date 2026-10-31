@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">Αναλογικό ρολόι</string>
+    <string name="launcher_app_info">Πληροφορίες εφαρμογής</string>
+    <string name="launcher_app_launcher_name">Εκκινητής</string>
+    <string name="launcher_apps">Εφαρμογές</string>
+    <string name="launcher_clear">Εκκαθάριση</string>
+    <string name="launcher_digital_clock_widget">Ψηφιακό ρολόι</string>
+    <string name="launcher_greeting_afternoon">Καλό απόγευμα</string>
+    <string name="launcher_greeting_evening">Καλησπέρα</string>
+    <string name="launcher_greeting_morning">Καλημέρα</string>
+    <string name="launcher_hint_default_sms_description">Πάτησε \"Ορισμός ως προεπιλογή\" για να ολοκληρώσεις.</string>
+    <string name="launcher_hint_default_sms_title">Ορισμός ως εφαρμογή SMS</string>
+    <string name="launcher_hint_mock_toggle_row">Άδεια</string>
+    <string name="launcher_hint_overlay_description">Θα σε επαναφέρουμε αμέσως μόλις ενεργοποιηθεί.</string>
+    <string name="launcher_hint_overlay_row">Να επιτρέπεται η εμφάνιση πάνω από άλλες εφαρμογές</string>
+    <string name="launcher_hint_overlay_title">Ενεργοποίηση \"Εμφάνιση πάνω από άλλες εφαρμογές\"</string>
+    <string name="launcher_lock_device_admin_warning">Η απενεργοποίηση της άδειας διαχειριστή θα απενεργοποιήσει τη λειτουργία διπλής βρύσης για κλείδωμα οθόνης.</string>
+    <string name="launcher_pseudo_widget_clock">Ρολόι</string>
+    <string name="launcher_pseudo_widget_search_bar">Γραμμή αναζήτησης</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">Ρώτα οτιδήποτε…</string>
+    <string name="launcher_recent_apps">Πρόσφατες εφαρμογές</string>
+    <string name="launcher_search_apps_hint">Αναζήτηση εφαρμογών</string>
+    <string name="launcher_search_in_apps">Αναζήτηση σε εφαρμογές</string>
+    <string name="launcher_searched_apps">Αναζητημένες εφαρμογές</string>
+    <string name="launcher_see_less">Δείτε λιγότερα</string>
+    <string name="launcher_see_more">Δείτε περισσότερα</string>
+    <string name="launcher_suggested_apps">Προτεινόμενες εφαρμογές</string>
+    <string name="launcher_suggested_for_now">Προτεινόμενα τώρα</string>
+    <string name="launcher_swipe_hint_tap">ή πάτησε οπουδήποτε για να το δοκιμάσεις</string>
+    <string name="launcher_swipe_left_hint">Σύρε αριστερά για αναζήτηση</string>
+    <string name="launcher_swipe_right_hint">Σύρε δεξιά για τα Μηνύματα</string>
+    <string name="launcher_swipe_up_hint">Σύρε πάνω για όλες τις εφαρμογές</string>
+    <string name="launcher_touch_hold_widget">Πατήστε παρατεταμένα το γραφικό στοιχείο και σύρετέ το στην αρχική οθόνη</string>
+    <string name="launcher_uninstall">Απεγκατάσταση</string>
+    <string name="launcher_widget_too_big">Το γραφικό είναι πολύ μεγάλο για το τρέχον μέγεθος της αρχικής οθόνης</string>
+</resources>

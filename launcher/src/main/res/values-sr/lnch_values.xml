@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">Аналогни сат</string>
+    <string name="launcher_app_info">Информације о апликацији</string>
+    <string name="launcher_app_launcher_name">Иницијатор</string>
+    <string name="launcher_apps">Апликације</string>
+    <string name="launcher_clear">Обриши</string>
+    <string name="launcher_digital_clock_widget">Дигитални сат</string>
+    <string name="launcher_greeting_afternoon">Добар дан</string>
+    <string name="launcher_greeting_evening">Добро вече</string>
+    <string name="launcher_greeting_morning">Добро јутро</string>
+    <string name="launcher_hint_default_sms_description">Додирните „Постави као подразумевано” да завршите.</string>
+    <string name="launcher_hint_default_sms_title">Поставите као своју SMS апликацију</string>
+    <string name="launcher_hint_mock_toggle_row">Дозвола</string>
+    <string name="launcher_hint_overlay_description">Вратићемо вас овде чим то укључите.</string>
+    <string name="launcher_hint_overlay_row">Дозволи приказ преко других апликација</string>
+    <string name="launcher_hint_overlay_title">Укључите „Приказ преко других апликација”</string>
+    <string name="launcher_lock_device_admin_warning">Уклањање администраторске дозволе онемогућиће функцију двоструког додира за закључавање екрана.</string>
+    <string name="launcher_pseudo_widget_clock">Сат</string>
+    <string name="launcher_pseudo_widget_search_bar">Трака за претрагу</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">Питај било шта…</string>
+    <string name="launcher_recent_apps">Недавне апликације</string>
+    <string name="launcher_search_apps_hint">Претражи апликације</string>
+    <string name="launcher_search_in_apps">Претражи апликације</string>
+    <string name="launcher_searched_apps">Претражене апликације</string>
+    <string name="launcher_see_less">Прикажи мање</string>
+    <string name="launcher_see_more">Прикажи више</string>
+    <string name="launcher_suggested_apps">Предложене апликације</string>
+    <string name="launcher_suggested_for_now">Предложено за сада</string>
+    <string name="launcher_swipe_hint_tap">или додирните било где да пробате</string>
+    <string name="launcher_swipe_left_hint">Превуците лево за претрагу</string>
+    <string name="launcher_swipe_right_hint">Превуците десно за Поруке</string>
+    <string name="launcher_swipe_up_hint">Превуците нагоре за све апликације</string>
+    <string name="launcher_touch_hold_widget">Дуго притисните виџет и превуците га на почетни екран</string>
+    <string name="launcher_uninstall">Деинсталирај</string>
+    <string name="launcher_widget_too_big">Виџет не може стати на почетни екран</string>
+</resources>

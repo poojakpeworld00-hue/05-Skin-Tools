@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A step-2 reason: radio row; when picked it opens its quick fix, the fix button and "Uninstall anyway". -->
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    style="@style/SH.Bento"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_6sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sh_card"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/row"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_44sdp"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="@dimen/_12sdp">
+
+            <ImageView
+                android:id="@+id/radio"
+                android:layout_width="@dimen/_17sdp"
+                android:layout_height="@dimen/_17sdp"
+                android:importantForAccessibility="no" />
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:textAlignment="viewStart"
+                android:textColor="@color/sh_text"
+                android:textSize="@dimen/_11ssp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/_12sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/fixText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/_7sdp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/sh_text"
+                android:textSize="@dimen/_10ssp"
+                app:drawableStartCompat="@drawable/ic_star" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/fixButton"
+                style="@style/SH.Cta"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_8sdp" />
+
+            <TextView
+                android:id="@+id/anyway"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center"
+                android:minHeight="@dimen/_30sdp"
+                android:text="@string/un_uninstall_anyway"
+                android:textColor="@color/sh_primary"
+                android:textSize="@dimen/_11ssp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

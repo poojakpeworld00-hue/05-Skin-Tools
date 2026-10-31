@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The reference app's uninstall pages: top bar, then the step's list (language / tips / reasons) or a centred block
+     (progress / before you go), the step's buttons, and its bottom ad. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sh_bg">
+
+    <View
+        android:id="@+id/glow"
+        android:layout_width="@dimen/_350sdp"
+        android:layout_height="@dimen/_240sdp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="@dimen/_minus60sdp"
+        android:layout_marginEnd="@dimen/_minus50sdp"
+        android:background="@drawable/bg_corner_glow" />
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/header"
+            layout="@layout/layout_header" />
+
+        <TextView
+            android:id="@+id/pageTitle"
+            style="@style/SH.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:paddingHorizontal="@dimen/_17sdp"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:id="@+id/sub"
+            style="@style/SH.Sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:paddingHorizontal="@dimen/_17sdp"
+            android:textAlignment="viewStart" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:scrollbars="none" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/rowsScroll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/rows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="@dimen/_13sdp"
+                android:paddingTop="@dimen/_4sdp" />
+        </androidx.core.widget.NestedScrollView>
+
+        <LinearLayout
+            android:id="@+id/center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/_21sdp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/centerIcon"
+                android:layout_width="@dimen/_54sdp"
+                android:layout_height="@dimen/_54sdp"
+                android:background="@drawable/bg_icon_chip"
+                android:importantForAccessibility="no"
+                android:padding="@dimen/_13sdp"
+                android:src="@drawable/ic_delete" />
+
+            <TextView
+                android:id="@+id/centerTitle"
+                style="@style/SH.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/centerSub"
+                style="@style/SH.Sub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:gravity="center" />
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_14sdp"
+                android:max="100"
+                android:visibility="gone"
+                app:indicatorColor="@color/sh_primary"
+                app:indicatorTrackGapSize="0dp"
+                app:trackColor="@color/sh_track"
+                app:trackCornerRadius="4dp"
+                app:trackStopIndicatorSize="0dp"
+                app:trackThickness="8dp" />
+
+            <TextView
+                android:id="@+id/percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="monospace"
+                android:textColor="@color/sh_muted"
+                android:textSize="@dimen/_11ssp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/primary"
+            style="@style/SH.Cta"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_17sdp"
+            android:layout_marginTop="@dimen/_6sdp" />
+
+        <TextView
+            android:id="@+id/secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:minHeight="@dimen/_32sdp"
+            android:textColor="@color/sh_muted"
+            android:textSize="@dimen/_11ssp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/adSlot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:visibility="gone" />
+    </LinearLayout>
+</FrameLayout>

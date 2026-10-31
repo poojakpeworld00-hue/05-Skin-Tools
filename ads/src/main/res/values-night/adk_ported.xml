@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="ad_card_stroke">#33415A</color>
+    <color name="adf_background">@color/cid_bg</color>
+    <color name="adf_on_surface">@color/cid_g_900</color>
+    <color name="adk_background">#FF121620</color>
+    <color name="cid_bg">#FF121620</color>
+    <color name="cid_g_900">#FFE2E9FF</color>
+    <color name="adk_on_surface">#FFE2E9FF</color>
+    <color name="adk_on_surface_variant">#FFBEC2CA</color>
+    <color name="adk_primary">#FF69B6FF</color>
+    <color name="adk_success">#7FD98A</color>
+</resources>

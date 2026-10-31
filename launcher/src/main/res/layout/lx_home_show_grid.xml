@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fffemotes.skintools.launcher.ui.LobbyLookerMatrix xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_show_gridIx"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.fffemotes.skintools.launcher.ui.LobbyLookerMatrixDrawingArea
+        android:id="@+id/drawing_areaIx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:translationZ="1dp" />
+
+    <com.fffemotes.skintools.launcher.ui.CustomGadgetWidgetSizeFrame
+        android:id="@+id/size_casingIx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</com.fffemotes.skintools.launcher.ui.LobbyLookerMatrix>

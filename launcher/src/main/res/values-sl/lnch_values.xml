@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">Analogna ura</string>
+    <string name="launcher_app_info">Podatki o aplikaciji</string>
+    <string name="launcher_app_launcher_name">Zaganjalnik</string>
+    <string name="launcher_apps">Aplikacije</string>
+    <string name="launcher_clear">Počisti</string>
+    <string name="launcher_digital_clock_widget">Digitalna ura</string>
+    <string name="launcher_greeting_afternoon">Dober dan</string>
+    <string name="launcher_greeting_evening">Dober večer</string>
+    <string name="launcher_greeting_morning">Dobro jutro</string>
+    <string name="launcher_hint_default_sms_description">Dotaknite se \"Nastavi kot privzeto\" za dokončanje.</string>
+    <string name="launcher_hint_default_sms_title">Nastavite kot svojo SMS aplikacijo</string>
+    <string name="launcher_hint_mock_toggle_row">Dovoljenje</string>
+    <string name="launcher_hint_overlay_description">Takoj, ko je vklopljeno, vas pripeljemo nazaj.</string>
+    <string name="launcher_hint_overlay_row">Dovoli prikaz nad drugimi aplikacijami</string>
+    <string name="launcher_hint_overlay_title">Vklopite \"Prikaz nad drugimi aplikacijami\"</string>
+    <string name="launcher_lock_device_admin_warning">Preklic skrbniškega dovoljenja bo onemogočil zaklep zaslona z dvojnim dotikom.</string>
+    <string name="launcher_pseudo_widget_clock">Ura</string>
+    <string name="launcher_pseudo_widget_search_bar">Iskalna vrstica</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">Vprašajte karkoli…</string>
+    <string name="launcher_recent_apps">Nedavne aplikacije</string>
+    <string name="launcher_search_apps_hint">Iskanje aplikacij</string>
+    <string name="launcher_search_in_apps">Iskanje po aplikacijah</string>
+    <string name="launcher_searched_apps">Iskane aplikacije</string>
+    <string name="launcher_see_less">Prikaži manj</string>
+    <string name="launcher_see_more">Prikaži več</string>
+    <string name="launcher_suggested_apps">Predlagane aplikacije</string>
+    <string name="launcher_suggested_for_now">Predlagano zdaj</string>
+    <string name="launcher_swipe_hint_tap">ali se dotaknite kjerkoli za preizkus</string>
+    <string name="launcher_swipe_left_hint">Povlecite levo za iskanje</string>
+    <string name="launcher_swipe_right_hint">Povlecite desno za Messages</string>
+    <string name="launcher_swipe_up_hint">Povlecite navzgor za vse aplikacije</string>
+    <string name="launcher_touch_hold_widget">Dolgo pritisnite pripomoček in povlecite na domači zaslon</string>
+    <string name="launcher_uninstall">Deinstalacija</string>
+    <string name="launcher_widget_too_big">Pripomoček je prevelik za trenutno velikost domačega zaslona</string>
+</resources>

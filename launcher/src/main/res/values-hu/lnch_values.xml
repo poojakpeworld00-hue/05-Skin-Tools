@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">Analóg óra</string>
+    <string name="launcher_app_info">Alkalmazásinformációk</string>
+    <string name="launcher_app_launcher_name">Indító</string>
+    <string name="launcher_apps">Alkalmazások</string>
+    <string name="launcher_clear">Törlés</string>
+    <string name="launcher_digital_clock_widget">Digitális óra</string>
+    <string name="launcher_greeting_afternoon">Jó napot</string>
+    <string name="launcher_greeting_evening">Jó estét</string>
+    <string name="launcher_greeting_morning">Jó reggelt</string>
+    <string name="launcher_hint_default_sms_description">Koppints az \"Beállítás alapértelmezettként\" gombra a befejezéshez.</string>
+    <string name="launcher_hint_default_sms_title">Állítsd be SMS-alkalmazásnak</string>
+    <string name="launcher_hint_mock_toggle_row">Engedély</string>
+    <string name="launcher_hint_overlay_description">Amint bekapcsolod, azonnal visszahozunk ide.</string>
+    <string name="launcher_hint_overlay_row">Megjelenítés más alkalmazások felett engedélyezése</string>
+    <string name="launcher_hint_overlay_title">Kapcsold be a \"Megjelenítés más alkalmazások felett\" funkciót</string>
+    <string name="launcher_lock_device_admin_warning">Az rendszergazdai engedély kikapcsolása letiltja a képernyő lezárásához szükséges dupla koppintás funkciót.</string>
+    <string name="launcher_pseudo_widget_clock">Óra</string>
+    <string name="launcher_pseudo_widget_search_bar">Keresősáv</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">Kérdezz bármit…</string>
+    <string name="launcher_recent_apps">Legutóbbi alkalmazások</string>
+    <string name="launcher_search_apps_hint">Alkalmazások keresése</string>
+    <string name="launcher_search_in_apps">Keresés az alkalmazások között</string>
+    <string name="launcher_searched_apps">Keresett alkalmazások</string>
+    <string name="launcher_see_less">Kevesebb megjelenítése</string>
+    <string name="launcher_see_more">Több megjelenítése</string>
+    <string name="launcher_suggested_apps">Ajánlott alkalmazások</string>
+    <string name="launcher_suggested_for_now">Most ajánlott</string>
+    <string name="launcher_swipe_hint_tap">vagy koppints bárhova a kipróbáláshoz</string>
+    <string name="launcher_swipe_left_hint">Húzd balra a kereséshez</string>
+    <string name="launcher_swipe_right_hint">Húzd jobbra az Üzenetekhez</string>
+    <string name="launcher_swipe_up_hint">Húzd felfelé az összes alkalmazáshoz</string>
+    <string name="launcher_touch_hold_widget">Nyomja meg hosszan a modult és húzza a kezdőképernyőre</string>
+    <string name="launcher_uninstall">Eltávolítás</string>
+    <string name="launcher_widget_too_big">A modul túl nagy az aktuális kezdőképernyő méretéhez</string>
+</resources>

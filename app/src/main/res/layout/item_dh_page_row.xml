@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A row of the mock "Default home app" page: empty radio, a coloured home tile and the launcher's name. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/_38sdp"
+    android:paddingHorizontal="@dimen/_12sdp">
+
+    <View
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:background="@drawable/bg_dh_ring" />
+
+    <ImageView
+        android:id="@+id/rowTile"
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:layout_marginStart="@dimen/_11sdp"
+        android:background="@drawable/bg_dh_pill"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/ic_home"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/rowLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_11sdp"
+        android:layout_weight="1"
+        android:textAlignment="viewStart"
+        android:textColor="@color/sh_text"
+        android:textSize="@dimen/_10ssp" />
+</LinearLayout>

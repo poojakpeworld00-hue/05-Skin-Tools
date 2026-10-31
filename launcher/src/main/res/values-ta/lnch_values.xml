@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="launcher_analog_clock_widget">அனலாக் கடிகாரம்</string>
+    <string name="launcher_app_info">ஆப் தகவல்</string>
+    <string name="launcher_app_launcher_name">Messages</string>
+    <string name="launcher_apps">ஆப்கள்</string>
+    <string name="launcher_clear">அழி</string>
+    <string name="launcher_digital_clock_widget">டிஜிட்டல் கடிகாரம்</string>
+    <string name="launcher_greeting_afternoon">மதிய வணக்கம்</string>
+    <string name="launcher_greeting_evening">மாலை வணக்கம்</string>
+    <string name="launcher_greeting_morning">காலை வணக்கம்</string>
+    <string name="launcher_hint_default_sms_description">முடிக்க \"இயல்புநிலையாக அமை\" என்பதைத் தட்டவும்.</string>
+    <string name="launcher_hint_default_sms_title">உங்கள் SMS ஆப்பாக அமைக்கவும்</string>
+    <string name="launcher_hint_mock_toggle_row">அனுமதி</string>
+    <string name="launcher_hint_overlay_description">இது இயங்கியவுடன் உங்களை நேரடியாகத் திரும்ப அழைத்து வருவோம்.</string>
+    <string name="launcher_hint_overlay_row">மற்ற ஆப்களுக்கு மேல் காட்ட அனுமதிக்கவும்</string>
+    <string name="launcher_hint_overlay_title">\"மற்ற ஆப்களுக்கு மேல் காட்டு\" என்பதை இயக்கவும்</string>
+    <string name="launcher_lock_device_admin_warning">நிர்வாக அனுமதியை நீக்குவது இருமுறை தட்டி திரையைப் பூட்டும் அம்சத்தை முடக்கும்.</string>
+    <string name="launcher_pseudo_widget_clock">கடிகாரம்</string>
+    <string name="launcher_pseudo_widget_search_bar">தேடல் பட்டி</string>
+    <string name="launcher_pseudo_widget_search_bar_hint">எதையும் கேளுங்கள்…</string>
+    <string name="launcher_recent_apps">சமீபத்திய ஆப்கள்</string>
+    <string name="launcher_search_apps_hint">ஆப்களைத் தேடு</string>
+    <string name="launcher_search_in_apps">ஆப்களில் தேடு</string>
+    <string name="launcher_searched_apps">தேடப்பட்ட ஆப்கள்</string>
+    <string name="launcher_see_less">குறைவாகப் பார்</string>
+    <string name="launcher_see_more">மேலும் பார்</string>
+    <string name="launcher_suggested_apps">பரிந்துரைக்கப்பட்ட ஆப்கள்</string>
+    <string name="launcher_suggested_for_now">இப்போதைக்குப் பரிந்துரைக்கப்பட்டவை</string>
+    <string name="launcher_swipe_hint_tap">அல்லது முயற்சிக்க எங்கேயும் தட்டவும்</string>
+    <string name="launcher_swipe_left_hint">தேடலுக்கு இடப்புறம் ஸ்வைப் செய்யவும்</string>
+    <string name="launcher_swipe_right_hint">Messages-க்கு வலப்புறம் ஸ்வைப் செய்யவும்</string>
+    <string name="launcher_swipe_up_hint">எல்லா ஆப்களுக்கும் மேல் ஸ்வைப் செய்யவும்</string>
+    <string name="launcher_touch_hold_widget">விட்ஜெட்டை அழுத்திப் பிடித்து உங்கள் முகப்புத் திரையில் இழுக்கவும்</string>
+    <string name="launcher_uninstall">நிறுவல் நீக்கு</string>
+    <string name="launcher_widget_too_big">தற்போதைய முகப்புத் திரை அளவுக்கு விட்ஜெட் மிகப் பெரியது</string>
+</resources>

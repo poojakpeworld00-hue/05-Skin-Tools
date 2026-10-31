@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/query_hotlink_itemIx"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:minHeight="52dp"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/activity_margin"
+    android:paddingEnd="@dimen/activity_margin">
+
+    <ImageView
+        android:id="@+id/query_hotlink_iconIx"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:contentDescription="@null" />
+
+    <org.fossify.commons.views.MyTextView
+        android:id="@+id/query_hotlink_textIx"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_margin"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+</LinearLayout>
